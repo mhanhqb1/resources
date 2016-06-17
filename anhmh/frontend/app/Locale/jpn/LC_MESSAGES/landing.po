@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Bmaps\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: VCC <kiennh@vccvn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "LANDING_MAIL_SUBJECT"
+msgstr "【Bmaps.world】お問い合わせありがとうございました。"
+
+msgid "LANDING_MAIL_FAILED"
+msgstr "メールの送信に失敗しました。"
+
+msgid "LANDING_MAIL_SENT"
+msgstr "お問い合わせ頂き\nありがとうございます"
+
+msgid "LP_META_TITLE"
+msgstr "Bmaps（ビーマップ）‐バリアフリー情報共有アプリ"
+
+msgid "LP_META_DESCRIPTION"
+msgstr "Bmaps（ビーマップ）は、障害者や高齢者、ベビーカー利用者、外国人など、多様なユーザーが外出時に求める情報を共有・収集するアプリです。情報のバリアを解消し、誰もが安心して外出できる社会の実現を目指します。"
+
+msgid "LP_META_KEYWORD"
+msgstr "bmaps,ビーマップ,バリアフリー,バリアフリーマップ,アプリ,ミライロ,日本財団"
+
+msgid "LP_BECOME_SUPPORTER"
+msgstr "Bmapsサポーターになって、<br/>バリアフリー情報を一緒にあつめよう！"
+
+msgid "LP_MENU_CONTACT"
+msgstr "お問い合わせ"
+
+msgid "LP_MENU_SOCIAL"
+msgstr "ビーマップが生み出す社会"
+
+msgid "LP_MENU_WHAT"
+msgstr "ビーマップとは"
+
+msgid "LP_SECTION_1_1_TITLE"
+msgstr "私の行けたが<br/>明日の誰かの<br/>地図になる。"
+
+msgid "LP_BTN_GO_CONTACT"
+msgstr "お問い合わせはこちらから"
+
+msgid "LP_MSG_TRIAL_VERSION"
+msgstr "※本アプリは体験版です。現在、正式版のリリースに向け、改善・改良を行っています。"
+
+msgid "LP_TXT_SECTION_3_1"
+msgstr "ビーマップは障害者や高齢者、ベビーカー利用者、外国人など、多様なユーザーが外出時に求める情報を共有するサービスです。"
+
+msgid "LP_TXT_SECTION_3_2"
+msgstr "私たちが生活する社会には多様な人々が生活しています。<br/>人は皆、それぞれ違った情報を求めています。<br/>ビーマップは、皆が安心して外出するための情報を共有する地図サービスであり、<br/>グローバルな社会的プロジェクトです。"
+
+msgid "LP_TXT_SECTION_3_3"
+msgstr "あなたの出かけた先の情報、<br/>その情報が多様なユーザーの可能性を広げます。"
+
+msgid "LP_TXT_SECTION_3_5"
+msgstr "ビーマップで、できること"
+
+msgid "LP_TXT_SECTION_3_6_ITEM_TXT_1"
+msgstr "みんなの声で地図がつくられる"
+
+msgid "LP_TXT_SECTION_3_6_ITEM_TXT_2"
+msgstr "スポットの情報共有"
+
+msgid "LP_TXT_SECTION_3_6_ITEM_TXT_3"
+msgstr "掲載されているお店、施設などのスポットには、利用者の声が蓄積されます。<br/>快適さに関する５段階評価の「レビュー」の他、設備や特徴、バリアフリー情報に関わる19の項目です。"
+
+msgid "LP_TXT_SECTION_3_7_ITEM_TXT_1"
+msgstr "同じ思いのユーザーの声を探し出す"
+
+msgid "LP_TXT_SECTION_3_7_ITEM_TXT_2"
+msgstr "絞り込み検索"
+
+msgid "LP_TXT_SECTION_3_7_ITEM_TXT_3"
+msgstr "様々な条件で施設を調べることができます。<br/>入口の段差の数、身体特性ごと（車いすユーザーなど）のレビューを検索できます。"
+
+msgid "LP_TXT_SECTION_3_8_ITEM_TXT_1"
+msgstr "みんなのお気に入りが見えてくる"
+
+msgid "LP_TXT_SECTION_3_8_ITEM_TXT_2"
+msgstr "ランキング"
+
+msgid "LP_TXT_SECTION_3_8_ITEM_TXT_3"
+msgstr "レビューの高いお店や施設には、たくさんの人が訪れます。<br/>みんなの「使いやすかった」という声をもとにしたランキングで、新たなスポットが見つかります。"
+
+msgid "LP_TXT_SECTION_3_9_ITEM_TXT_1"
+msgstr "全国のユーザーとレビュー数を競う"
+
+msgid "LP_TXT_SECTION_3_9_ITEM_TXT_2"
+msgstr "団体対抗戦"
+
+msgid "LP_TXT_SECTION_3_9_ITEM_TXT_3"
+msgstr "ユーザー同士でチームを組むことができます。<br/>チーム毎にレビューの数を競いながら、ゲーム感覚でもビーマップの情報が構築されます。"
+
+msgid "LP_TXT_SECTION_5_TITLE"
+msgstr "投稿の流れを知ろう"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_1"
+msgstr "スポットを見つける"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_1"
+msgstr "マップから今あなたがいる場所や、これまでに行ったことのある場所を見つけ出しましょう。"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_2"
+msgstr "段差の数を数えて登録"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_2"
+msgstr "車いすユーザーやベビーカー利用者に向け、入口の段差の数を投稿しましょう。<br/>ユーザーによって越えられる段差の数は異なるので、数の情報共有は重要です。"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_3"
+msgstr "詳しい情報を投稿しましょう"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_3"
+msgstr "多様なユーザーが求める19の項目から、設備や特徴の登録をしましょう。<br/>障害者や高齢者のみならず、みんなに役立つ情報が集まります。"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_4"
+msgstr "写真を撮影して投稿"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_4"
+msgstr "ユーザーは入り口の写真を中心に、スポット全体の情報を求めています。<br/>写真を投稿することで、より詳しく、その施設の情報を知ることができます。"
+
+msgid "LP_TXT_SECTION_6_TITLE"
+msgstr "ビーマップで共有できる情報"
+
+msgid "LP_TXT_SECTION_6_1_TITLE_LEFT"
+msgstr "レビュー"
+
+msgid "LP_TXT_SECTION_6_1_TEXT_LEFT"
+msgstr "対象のお店や施設がどれだけ利用しやすかったか、心地よかったかを共有できます。"
+
+msgid "LP_TXT_SECTION_6_1_TITLE_RIGHT"
+msgstr "設備･特徴"
+
+msgid "LP_TXT_SECTION_6_1_TEXT_RIGHT"
+msgstr "多様なユーザーが求める19の項目から、施設の設備や特徴を共有することができます。<br/>項目は下記の通りです。"
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_1"
+msgstr "移動や居心地に関する特徴"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_1_DIV"
+msgstr "フラット"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_1_SPAN"
+msgstr "施設内に段差がなくスムーズな<br/>移動が可能。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_2_DIV"
+msgstr "静か"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_2_SPAN"
+msgstr "騒音や環境音が少なく、<br/>落ち着いて会話ができる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_3_DIV"
+msgstr "広い"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_3_SPAN"
+msgstr "通路のゆとり（約80cm）が<br/>確保され、移動しやすい。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_4_DIV"
+msgstr "明るい"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_4_SPAN"
+msgstr "十分な明るさで、移動や動作の<br/>安全が確保されている。"
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_2"
+msgstr "アクセス面を支える設備"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_5_DIV"
+msgstr "一般駐車場"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_5_SPAN"
+msgstr "駐車場が利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_6_DIV"
+msgstr "エレベーター"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_6_SPAN"
+msgstr "エレベーターが利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_7_DIV"
+msgstr "優先駐車場"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_7_SPAN"
+msgstr "車いすマークが設置された<br/>駐車場が利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_8_DIV"
+msgstr "貸し出し車いす"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_8_SPAN"
+msgstr "貸し出し用の車いすが利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_3"
+msgstr "安心して利用できるトイレ環境"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_9_DIV"
+msgstr "車いす対応トイレ"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_9_SPAN"
+msgstr "車いすに合わせた広いスペースや<br/>手すりが設置されたトイレがある。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_10_DIV"
+msgstr "オストメイト対応トイレ"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_10_SPAN"
+msgstr "オストメイト対応の水洗機器が<br/>設置されたトイレがある。"
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_4"
+msgstr "パパ・ママにうれしい設備"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_11_DIV"
+msgstr "授乳室"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_11_SPAN"
+msgstr "乳児に授乳することができる<br/>スペースがある。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_12_DIV"
+msgstr "貸し出し用のベビーカー"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_12_SPAN"
+msgstr "貸し出し用のベビーカーが利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_5"
+msgstr "さまざまな人々が安心して利用できる"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_13_DIV"
+msgstr "ほじょ犬対応"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_13_SPAN"
+msgstr "ほじょ犬の受け入れに好意的な<br/>意思がある。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_14_DIV"
+msgstr "クレジットカード対応"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_14_SPAN"
+msgstr "決済において、クレジットカードが<br/>利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_15_DIV"
+msgstr "ユニバーサルマナー"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_15_SPAN"
+msgstr "障害者や高齢者など多様な人々に対<br/>して適切なサービスが提供されている。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_16_DIV"
+msgstr "電子マネー対応"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_16_SPAN"
+msgstr "決済において、電子マネーが利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_6"
+msgstr "その他の便利な設備"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_17_DIV"
+msgstr "コンセント"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_17_SPAN"
+msgstr "電源コンセントが利用できる。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_18_DIV"
+msgstr "禁煙･分煙スペース"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_18_SPAN"
+msgstr "全面禁煙または、喫煙スペースが<br/>分けて設置されている。"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_19_DIV"
+msgstr "公衆Wi-Fi"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_19_SPAN"
+msgstr "公衆Wi-Fiが利用できる。"
+
+msgid "LP_TXT_SECTION_7_TITLE_1"
+msgstr "ビーマップが生み出す社会"
+
+msgid "LP_TXT_SECTION_7_TITLE_2"
+msgstr "ビーマップはアプリを主体として、<br/>情報のバリアフリーを実現する<br/>プロジェクトとして展開していきます。"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TITLE_1"
+msgstr "学校向けの体験学習、企業CSRの取り組みに"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TXT_1"
+msgstr "中高生に向けたバリアフリーへの理解促進や、<br/>企業のCSR活動の一環、情報発信のツールとしてご活用いただく<br/>ことができます。"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TITLE_2"
+msgstr "あなたの街のバリアフリーに貢献"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TXT_2"
+msgstr "全国各地で参加型の調査イベント「Bmapsの調査隊」を展開して<br/>います。<br/>バリアフリー情報を数多く集め、地域のバリアフリーに対する意識を<br/>高める機会を提供します。"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TITLE_3"
+msgstr "大型イベントに備えた情報網を構築"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TXT_3"
+msgstr "2020年に開催される国際的なイベントに向け、宿泊施設や<br/>飲食店などのバリアフリー情報の充足に力を発揮します。"
+
+msgid "LP_TXT_SECTION_8_TOP"
+msgstr "ごあいさつ"
+
+msgid "LP_TXT_SECTION_8_TITLE"
+msgstr "Bmaps（ビーマップ）で、誰もが安心して外出できる社会へ"
+
+msgid "LP_TXT_SECTION_8_TXT"
+msgstr "障害者や高齢者、ベビーカー利用者など、移動に不安を感じる方々に<br/>とって「情報の壁」は解決すべき課題の一つでした。<br/>ビーマップでは、宿泊施設や飲食店をはじめ、ありとあらゆる場所における<br/>バリアフリー情報を皆で協力して集めていくことを目的としています。<br/>「行きたい場所」に「行けるのかどうか」を誰もが手軽に調べることができ、<br/>多様な方々が笑顔で外出できる社会を一緒に創っていきましょう。"
+
+msgid "LP_TXT_SECTION_8_1_TXT"
+msgstr "障害者や高齢者、ベビーカー利用者など、移動に不安を感じる方々にとって「情報の壁」は解決すべき課題の一つでした。"
+
+msgid "LP_TXT_SECTION_8_2_TXT"
+msgstr "ビーマップでは、宿泊施設や飲食店をはじめ、ありとあらゆる場所におけるバリアフリー情報を皆で協力して集めていくことを目的としています。「行きたい場所」に「行けるのかどうか」を誰もが手軽に調べることができ、多様な方々が笑顔で外出できる社会を一緒に創っていきましょう。"
+
+msgid "LP_TXT_SECTION_8_TXT_BOT"
+msgstr "株式会社ミライロ  <span>垣内 俊哉</span>"
+
+msgid "LP_TXT_SECTION_9_TOP_DIV"
+msgstr "お問い合わせ"
+
+msgid "LP_TXT_SECTION_9_TOP_SPAN"
+msgstr "現在、ビーマップ（体験版）をご利用くださる団体<br/>（企業、学校、行政など）を募集しています。<br/>ご利用希望の団体は、以下問い合わせフォームからお願いします。<br/>※ビーマップに関するご質問や、取材依頼もこちらからどうぞ。"
+
+msgid "LP_TXT_SECTION_9_TITLE"
+msgstr "お問い合わせフォーム"
+
+msgid "LP_TXT_SECTION_9_DETAIL"
+msgstr "以下の項目を記入していただき送信ボタンを押してください。担当スタッフが確認後返信いたします。<br/>万が一ご連絡がない場合、お手数ですが、再度お問い合わせください。"
+
+msgid "LP_TXT_REQUIRED"
+msgstr "※ 必須"
+
+msgid "LP_TXT_NAME"
+msgstr "お名前"
+
+msgid "LP_TXT_NAME_KANA"
+msgstr "お名前（フリガナ）"
+
+msgid "LP_TXT_EMAIL"
+msgstr "E-mailアドレス"
+
+msgid "LP_TXT_EMAIL_CONFIRM"
+msgstr "確認のためもう一度ご入力ください"
+
+msgid "LP_TXT_PHONE"
+msgstr "お電話番号"
+
+msgid "LP_TXT_GROUP_NAME"
+msgstr "御社名、団体名（個人の方は「個人」とご入力ください）"
+
+msgid "LP_TXT_COMMENT"
+msgstr "お問い合わせ内容"
+
+msgid "LP_BTN_SEND"
+msgstr "送 信"
+
+msgid "LP_BTN_GO_TOP_PAGE"
+msgstr "ページトップへ"

@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Bmaps\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: VCC <kiennh@vccvn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "LANDING_MAIL_SUBJECT"
+msgstr "【Bmaps.world】Gracias por tu consulta."
+
+msgid "LANDING_MAIL_FAILED"
+msgstr "Ha habido un error al enviar el correo electrónico."
+
+msgid "LANDING_MAIL_SENT"
+msgstr "Muchas gracias\n por consultarnos"
+
+msgid "LP_META_TITLE"
+msgstr "Bmaps ‐Una app para compartir información sin barreras"
+
+msgid "LP_META_DESCRIPTION"
+msgstr "Bmaps es una app para compartir y recoger información de los usuarios cuando van a algún sitio. Enfocada a una gran variedad de usuarios, como personas discapacitadas y de la tercera edad, usuarios de carritos de bebé o extranjeros,  tiene como objetivo eliminar las barreras de información y  hacer realidad una sociedad en la que cualquier persona pueda salir a la calle con tranqulilidad."
+
+msgid "LP_META_KEYWORD"
+msgstr "bmaps, BMaps, sin barreras, mapas sin barreras, app, Mirairo, The Nippon Foundation"
+
+msgid "LP_BECOME_SUPPORTER"
+msgstr "¡Da tu apoyo a BMaps、<br/> y consigamos información sin barreras!"
+
+msgid "LP_MENU_CONTACT"
+msgstr "Consultas"
+
+msgid "LP_MENU_SOCIAL"
+msgstr "La sociedad que nace de BMaps"
+
+msgid "LP_MENU_WHAT"
+msgstr "Qué es Bmaps"
+
+msgid "LP_SECTION_1_1_TITLE"
+msgstr "Mi "Estuve allí" se convertirá mañana en el mapa de alguien."
+
+msgid "LP_BTN_GO_CONTACT"
+msgstr "Consultas desde aquí"
+
+msgid "LP_MSG_TRIAL_VERSION"
+msgstr "※Esta app es una versión de prueba。Actualmente estamos trabajando en mejoras con vistas al lanzamiento de la versión oficial."
+
+msgid "LP_TXT_SECTION_3_1"
+msgstr "Bmaps es un servicio donde multitud de usuarios (como personas discapacitadas y de la tercera edad, usuarios de carritos de bebé o extranjeros) recogen y comparten información cuando van a algún sitio."
+
+msgid "LP_TXT_SECTION_3_2"
+msgstr "Hay una gran variedad de personas viviendo en nuestra sociedad, donde<br/> cada cual busca y requiere de información diferente.<br/>Bmaps es un proyecto global con un servicio de mapas en los que se comparte información para que la gente salga a la calle con tranquilidad."
+
+msgid "LP_TXT_SECTION_3_3"
+msgstr "Tu información de lugares visitados representa las posibilidades de muchos usuarios."
+
+msgid "LP_TXT_SECTION_3_5"
+msgstr "Lo que puedes hacer con Bmaps"
+
+msgid "LP_TXT_SECTION_3_6_ITEM_TXT_1"
+msgstr "Es posible hacer mapas con las voces de todo el mundo."
+
+msgid "LP_TXT_SECTION_3_6_ITEM_TXT_2"
+msgstr "Compartir información de sitios"
+
+msgid "LP_TXT_SECTION_3_6_ITEM_TXT_3"
+msgstr "Las opiniones de los usuarios se van acumulando en las tiendas y establecimientos publicados.<br/>Además de las críticas de la comodidad de los sitios mediante un sistema de valoración de 5 puntos, hay 19 aspectos adicionales referentes a instalaciones, características e información sin barreras."
+
+msgid "LP_TXT_SECTION_3_7_ITEM_TXT_1"
+msgstr "Encontrar opiniones de usuarios con las mismas ideas"
+
+msgid "LP_TXT_SECTION_3_7_ITEM_TXT_2"
+msgstr "Búsqueda por filtros"
+
+msgid "LP_TXT_SECTION_3_7_ITEM_TXT_3"
+msgstr "Es posible obtener información del establecimiento mediante una serie de términos.<br/>Se puede investigar el número de escalones de la entrada y las características físicas de los usuarios (como aquellos que usan silla de ruedas) mediante sus críticas."
+
+msgid "LP_TXT_SECTION_3_8_ITEM_TXT_1"
+msgstr "Se pueden ver los gustos de todo el mundo"
+
+msgid "LP_TXT_SECTION_3_8_ITEM_TXT_2"
+msgstr "Clasificación"
+
+msgid "LP_TXT_SECTION_3_8_ITEM_TXT_3"
+msgstr "Los establecimientos con muchas críticas reciben muchas visitas. <br/> Con el "fácil de visitar" de los usuarios será posible encontrar nuevos sitios."
+
+msgid "LP_TXT_SECTION_3_9_ITEM_TXT_1"
+msgstr "Competir en número de críticas con usuarios de todo el país"
+
+msgid "LP_TXT_SECTION_3_9_ITEM_TXT_2"
+msgstr "Torneo de asociaciones"
+
+msgid "LP_TXT_SECTION_3_9_ITEM_TXT_3"
+msgstr "Se pueden formar equipos con otros usuarios。<br/>Mientras que cada equipo compite por números de críticas la información de Bmaps aumenta."
+
+msgid "LP_TXT_SECTION_5_TITLE"
+msgstr "¡Vamos a ver a dúnde llegan las publicaciones!"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_1"
+msgstr "Encontrar sitios"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_1"
+msgstr "¡Encuentra mediante los mapas el sitio en que estás o aquellos que ya has visitado!"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_2"
+msgstr "Recuento y registro de número de escalones"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_2"
+msgstr "¡Vamos a contar y publicar los escalones a la entrada de los establecimientos! Enfocado a usuarios de sillas de ruedad y carritos de bebé<br/> El número de escalones puede variar de acuerdo según el usuario, por lo que es importante compartir esta información."
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_3"
+msgstr "¡Publiquemos información detallada!"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_3"
+msgstr "Mediante 19 aspectos que recogen muchos usuarios, registramos instalaciones y características de los sitios.<br/> Esta información no sólo sirve a personas discapacitadas o de la tercera edad, sino a todo el mundo."
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_STEP_4"
+msgstr "Tomar y publicar fotos"
+
+msgid "LP_TXT_SECTION_5_ITEM_TXT_DETAIL_4"
+msgstr "Los usuarios reunen toda la información del sitio en mitad de una foto de la entrada del lugar.<br/>Con la subida de la imagen se puede ubtener información muy detallada del establecimiento."
+
+msgid "LP_TXT_SECTION_6_TITLE"
+msgstr "Información que se puede compartir en Bmaps"
+
+msgid "LP_TXT_SECTION_6_1_TITLE_LEFT"
+msgstr "Críticas"
+
+msgid "LP_TXT_SECTION_6_1_TEXT_LEFT"
+msgstr "Es posible compartir en qué establecimientos se puede estar de manera cómoda y es fácil acceder."
+
+msgid "LP_TXT_SECTION_6_1_TITLE_RIGHT"
+msgstr "Instalaciones · Características"
+
+msgid "LP_TXT_SECTION_6_1_TEXT_RIGHT"
+msgstr "A partir de los 19 aspectos que recogen los usuarios se pueden compartir las instalaciones y características.<br/>Dichas características son las siguientes."
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_1"
+msgstr "Características de movilidad y confort"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_1_DIV"
+msgstr "Llano"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_1_SPAN"
+msgstr "No hay desniveles dentro del establecimiento y hay posibilidad de moverse con soltura."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_2_DIV"
+msgstr "Tranquilo"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_2_SPAN"
+msgstr "Hay poco ruido o sonido ambiental y se puede mantener una conversación relajada."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_3_DIV"
+msgstr "Amplio"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_3_SPAN"
+msgstr "El margen de espacio para moverse (unos 80cm) está garantizado y es fácil moverse."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_4_DIV"
+msgstr "Luminoso"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_4_SPAN"
+msgstr "Hay luz suficiente. Seguridad garantizada para moverse y para cualquier acción."
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_2"
+msgstr "Equipamiento para facilitar el acceso"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_5_DIV"
+msgstr "Aparcamiento general"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_5_SPAN"
+msgstr "Es posible hacer uso del aparcamiento."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_6_DIV"
+msgstr "Ascensor"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_6_SPAN"
+msgstr "Es posible usar el ascensor."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_7_DIV"
+msgstr "Aparcamiento preferente"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_7_SPAN"
+msgstr "Es posible usar el aparcamiento preferente en aquellas plazas marcadas con una silla de ruedas."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_8_DIV"
+msgstr "Préstamo de sillas de ruedas"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_8_SPAN"
+msgstr "Se pueden emplear sillas de ruedas a préstamo."
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_3"
+msgstr "Ambientes en los que poder usar sillas de ruedas con tranquilidad."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_9_DIV"
+msgstr "Aseos adaptados para sillas de ruedas"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_9_SPAN"
+msgstr "Hay aseos con asideros y espacio amplio, adaptados para sillas de ruedas."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_10_DIV"
+msgstr "Aseos para ostomías"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_10_SPAN"
+msgstr "Hay aseos instalados y adaptados con utensilios para la ostomía"
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_4"
+msgstr "Instalaciones para contentar a padres y madres"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_11_DIV"
+msgstr "Sala de lactancia"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_11_SPAN"
+msgstr "Se dispone de espacios para amamantar a lactantes."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_12_DIV"
+msgstr "Préstamo de sillas de ruedas"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_12_SPAN"
+msgstr "Se pueden usar carritos de bebé a préstamo."
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_5"
+msgstr "Multitud de personas pueden hacer uso de los mismos sin preocupación."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_13_DIV"
+msgstr "Perros guía"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_13_SPAN"
+msgstr "Se da una postura favorable respecto a los perros guía."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_14_DIV"
+msgstr "Tarjetas de crédito"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_14_SPAN"
+msgstr "Se puede pagar mediante tarjeta de crédito."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_15_DIV"
+msgstr "Costumbres universales"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_15_SPAN"
+msgstr "Se proporcionan servicios apropiados para un gran público así como para personas discapacitadas o de la tercera edad."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_16_DIV"
+msgstr "Dinero electrónico"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_16_SPAN"
+msgstr "Se puede pagar mediante dinero electrónico."
+
+msgid "LP_TXT_SECTION_6_ITEM_TITLE_6"
+msgstr "Otras instalaciones útiles"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_17_DIV"
+msgstr "Enchufes."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_17_SPAN"
+msgstr "Es posible hacer uso de enchufes."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_18_DIV"
+msgstr "Espacios sin humo · Espacios para fumadores"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_18_SPAN"
+msgstr "Hay espacios completamente libres de humos o zonas separadas para fumadores."
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_19_DIV"
+msgstr "Wi-Fi público"
+
+msgid "LP_TXT_SECTION_6_ITEM_DETAIL_19_SPAN"
+msgstr "Es posible usar Wi-Fi público."
+
+msgid "LP_TXT_SECTION_7_TITLE_1"
+msgstr "La sociedad que nace de BMaps"
+
+msgid "LP_TXT_SECTION_7_TITLE_2"
+msgstr "Bmaps se desarrolla como un proyecto <br/> principalmente orientado a hacer realidad<br/> una información sin barreras."
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TITLE_1"
+msgstr "Para estudiar experiencias personales en escuelas e iniciativas RSE en empresas"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TXT_1"
+msgstr "Se puede emplear como herramienta de transmisión de información, como enlace en actividades RSE en empresas o para fomentar la comprensión sin barreras entre alumnos de secundaria y bachillerato."
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TITLE_2"
+msgstr "Contribución a una ciudad sin barreras"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TXT_2"
+msgstr "Llevamos a cabo eventos en todo el país y en cada región bajo el nombre <br/>Equipo de Investigación BMaps para investigar las formas de participación 。<br/>Una oportunidad para ayudar a concienciar de una región sin barreras <br/> y recoger una gran cantidad de información."
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TITLE_3"
+msgstr "Construcción de una red de información preparada para grandes eventos"
+
+msgid "LP_TXT_SECTION_7_ITEM_DETAIL_TXT_3"
+msgstr "Una muestra de poder y de información sin barreras sobre alojamiento <br/> y restaurantes de cara al evento internacional que se celebrará en 2020."
+
+msgid "LP_TXT_SECTION_8_TOP"
+msgstr "Saludo"
+
+msgid "LP_TXT_SECTION_8_TITLE"
+msgstr "Con Bmaps cualquiera sale a la calle sin problemas."
+
+msgid "LP_TXT_SECTION_8_TXT"
+msgstr "El principal problema que había que resolver era la "barrera de información" con la que se topaban personas discapacitadas, de la tercerca edad o usuarios de carritos de bebé y que causaba inseguridad al salir a la calle.<br/>En BMaps el objetivo es colaborar entre todos y reunir información de todos y cada uno de los lugares y establecimientos que ofrezcan alojamiento y/o comida.<br/> Cualquiera puede buscar de forma sencilla en "sitios a los que quiero ir" si puede ir o no. ¡Vamos a crear entre todos una sociedad en la que salir a la calle con una sonrisa!"
+
+msgid "LP_TXT_SECTION_8_1_TXT"
+msgstr "El problema a resolver era la barrera de información de gente como discapacitados, personas de la tercera edad o usuarios de carritos de bebé y la falta de seguridad al salir a la calle."
+
+msgid "LP_TXT_SECTION_8_2_TXT"
+msgstr "En BMaps el objetivo es colaborar entre todos y reunir información de todos y cada uno de los lugares y establecimientos que ofrezcan alojamiento y/o comida. Cualquiera puede buscar de forma sencilla en "sitios a los que quiero ir" si puede ir o no. ¡Vamos a crear entre todos una sociedad en la que salir a la calle con una sonrisa!"
+
+msgid "LP_TXT_SECTION_8_TXT_BOT"
+msgstr "Mirairo Ltd.  <span>Toshiya Kakiuchi</span>"
+
+msgid "LP_TXT_SECTION_9_TOP_DIV"
+msgstr "Contacto"
+
+msgid "LP_TXT_SECTION_9_TOP_SPAN"
+msgstr "Actualmente estamos buscando organizaciones (empresas, escuelas, establecimientos) <br/>que puedan usar la versión de prueba de Bmaps.<br/>Para aquellas organizaciones interesadas en su uso, por favor rellenen el formulario de consulta que figura abajo. <br/>※También se puede usar para preguntas relacionadas con Bmaps o peticiones para recogida de datos."
+
+msgid "LP_TXT_SECTION_9_TITLE"
+msgstr "Formulario de consulta"
+
+msgid "LP_TXT_SECTION_9_DETAIL"
+msgstr "Rellena los datos que se piden abajo y pulsa el botón Enviar. Nuestro equipo responderá tras comprobar los datos.<br/>Si por casualidad no hay respuesta, envíanos la informacion de nuevo. Sentimos las molestias que pueda causar."
+
+msgid "LP_TXT_REQUIRED"
+msgstr "※ requerido"
+
+msgid "LP_TXT_NAME"
+msgstr "Nombre"
+
+msgid "LP_TXT_NAME_KANA"
+msgstr "Nombre (furigana)"
+
+msgid "LP_TXT_EMAIL"
+msgstr "Dirección de correo electrónico"
+
+msgid "LP_TXT_EMAIL_CONFIRM"
+msgstr "Introdúcelo de nuevo para confirmar"
+
+msgid "LP_TXT_PHONE"
+msgstr "Número de teléfono"
+
+msgid "LP_TXT_GROUP_NAME"
+msgstr "Nombre de empresa, nombre de organización (para particulares, escribe "Particular")"
+
+msgid "LP_TXT_COMMENT"
+msgstr "Contenido de la consulta"
+
+msgid "LP_BTN_SEND"
+msgstr "Enviar"
+
+msgid "LP_BTN_GO_TOP_PAGE"
+msgstr "Al inicio de la página"

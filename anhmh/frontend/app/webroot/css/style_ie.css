@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* IE10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #articleContainer {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    header {
+        position: absolute;
+    }
+
+    .dlgPopoup {
+        position: absolute;
+    }
+    
+    .scrollPopup {
+        position: absolute;
+        top: 0;
+    }
+}

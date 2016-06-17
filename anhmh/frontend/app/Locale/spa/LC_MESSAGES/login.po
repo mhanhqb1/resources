@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Bmaps\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: VCC <kiennh@vccvn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "LANG_LOGIN_TITLE"
+msgstr "Iniciar sesión"
+
+msgid "LANG_LOGIN_FAIL"
+msgstr "Ha habido un fallo en el sistema. Inténtalo de nuevo."
+
+msgid "LANG_LOGIN_REQUIRE_EMAIL"
+msgstr "Introduce tu dirección de correo electrónico."
+
+msgid "LANG_LOGIN_REQUIRE_PASSWORD"
+msgstr "Introduce tu contraseña."
+
+msgid "LANG_LOGIN_REQUIRE_PASSWORD_CONFIRM"
+msgstr "Introduce de nuevo tu contraseña"
+
+msgid "LANG_LOGIN_EMAIL_MAX_LENGTH"
+msgstr "Introduce una dirección de correo electrónico inferior a 40 caracteres."
+
+msgid "LANG_LOGIN_EMAIL_INVALID"
+msgstr "El formato de la dirección de correo electrónico no es válido"
+
+msgid "LANG_LOGIN_TWITTER_INVALID"
+msgstr "No se ha podido confirmar la cuenta de Twitter."
+
+msgid "LANG_LOGIN_FORGET_PASSWORD_TITLE"
+msgstr "¿Has olvidado tu contraseña?"
+
+msgid "LANG_LOGIN_FORGET_PASSWORD"
+msgstr "Introduce tu dirección de correo electrónico."
+
+msgid "LANG_LOGIN_CONFIRM_CODE_TITLE"
+msgstr "Código de recuperación."
+
+msgid "LANG_LOGIN_CONFIRM_CODE"
+msgstr "Introduce tu código de recuperación."
+
+msgid "LANG_LOGIN_CONFIRM_CODE_HOLDER"
+msgstr "Código de recuperación."
+
+msgid "LANG_LOGIN_NEW_PASSWORD_TITLE"
+msgstr "Nueva contraseña."
+
+msgid "LANG_LOGIN_NEW_PASSWORD"
+msgstr "Introduce tu nueva contraseña."
+
+msgid "INPUT_PASSWD_CONFIRM_PLACEHOLDER"
+msgstr "Introduce la contraseña"
+
+msgid "LOGIN_LABEL_UPDATE"
+msgstr "Actualizar"
+
+msgid "LABEL_FORGOT_PASSWORD_DESCRIPTION"
+msgstr "Enviaremos los pasos para reestablecer la contraseña a la dirección de correo electrónico especificada. Vuelve a establecer tu contraseña siguiendo la información que figuran en el correo electrónico."
+
+msgid "LANG_LOGIN_FAILED_LIMIT"
+msgstr "Has intentado iniciar sesión 10 veces sin éxito. Espera 30 minutos e inténtalo de nuevo."

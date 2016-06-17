@@ -1,0 +1,860 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Bmaps\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: VCC <kiennh@vccvn.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "BMAPS_BRAND_COPYRIGHT"
+msgstr "Mi「Estuve allí」se convertirá mañana en el mapa de alguien."
+
+msgid "LABEL_SELECT_GENDER"
+msgstr "Determinar sexo"
+
+msgid "MESSAGE_CONFIRM_PASSWORD_EMPTY"
+msgstr "Es necesaria una contraseña de confirmación."
+
+msgid "MESSAGE_CREATE_PASSWORD_NOT_SUCCESS"
+msgstr "No se ha podido crear la nueva contraseña."
+
+msgid "MESSAGE_CREATE_PASSWORD_SUCCESS"
+msgstr "Se ha actualizado la contraseña."
+
+msgid "MESSAGE_EMAIL_ALREADY_REGISTERED"
+msgstr "La dirección de correo electrónico no está registrada."
+
+msgid "MESSAGE_EMAIL_CAN_NOT_EMPTY"
+msgstr "Es necesaria una dirección de correo electrónico."
+
+msgid "MESSAGE_EMAIL_HAS_BEEN_SENT"
+msgstr "Se ha enviado un email de confirmación. Comprueba tu bandeja de correo electrónico."
+
+msgid "LABEL_ENTER_BIRTHDAY"
+msgstr "Determinar fecha de nacimiento"
+
+msgid "LABEL_ENTER_NICKNAME"
+msgstr "Introducir alias"
+
+msgid "LABEL_ENTER_ZIP_CODE"
+msgstr "Introducir código postal"
+
+msgid "ERROR_404_MESSAGE"
+msgstr "URL especificada inválida."
+
+msgid "Female"
+msgstr "Mujer"
+
+msgid "LABEL_FORGET_PASSWORD"
+msgstr "Pincha aquí si has olvidado tu contraseña."
+
+msgid "INPUT_EMAIL_PLACEHOLDER"
+msgstr "Introducir dirección de correo electrónico."
+
+msgid "INPUT_PASSWD_PLACEHOLDER"
+msgstr "Introducir contraseña."
+
+msgid "MESSAGE_INVALID_EMAIL_OR_PASSWORD_TRY_AGAIN"
+msgstr "La dirección de correo electrónico y/o la contraseña son incorrectas. Introduce ambos de nuevo."
+
+msgid "MESSAGE_INVALID_EMAIL"
+msgstr "Esta cuenta todavía no está registrada."
+
+msgid "MESSAGE_ACTIVE_EMAIL_ALREADY_REGISTERED"
+msgstr "Esta dirección de correo ya se encuentra registrada."
+
+msgid "MESSAGE_ACTIVE_EMAIL_ALREADY_REGISTERED_WAITING_ACTIVE"
+msgstr "Se ha enviado un correo electrónico. Haz click en la URL que encontrarás en el texto del correo."
+
+msgid "MESSAGE_REQUEST_ALREADY_PROCESSED_BY_ANOTHER_USER"
+msgstr "La solicitud ha se ha procesado."
+
+msgid "MESSAGE_TOKEN_NOT_EXIST"
+msgstr "El periodo de validez de la ficha ha expirado."
+
+msgid "MESSAGE_REGISTRATION_ACTIVED"
+msgstr "Se ha confirmado el registro."
+
+msgid "LABEL_ADDRESS"
+msgstr "Dirección"
+
+msgid "LABEL_ALL"
+msgstr "Todo"
+
+msgid "LABEL_ALT_FILTER_CATEGORIES"
+msgstr "Buscar por categoría"
+
+msgid "LABEL_ALT_FILTER_FACILITIES"
+msgstr "Filtrar por tipo de instalaciones y contribuidor"
+
+msgid "LABEL_BUSINESS_HOURS"
+msgstr "Horario"
+
+msgid "LABEL_CANCEL"
+msgstr "Cancelar"
+
+msgid "LABEL_CATEGORY"
+msgstr "Categoría"
+
+msgid "LABEL_GENRE"
+msgstr "Género"
+
+msgid "LABEL_COMMENT"
+msgstr "Comentarios"
+
+msgid "LABEL_COMPANY"
+msgstr "Corporación"
+
+msgid "LABEL_NUMBER_COUNTER"
+msgstr "respuestas"
+
+msgid "LABEL_DECIDE"
+msgstr "Decidir"
+
+msgid "LABEL_DELETE_PLACE_WANT_TO_GO"
+msgstr "Ya no quiero ir"
+
+msgid "LABEL_BASIC_INFORMATION"
+msgstr "Información básica del sitio"
+
+msgid "LABEL_DISPLAY_BASIC_INFORMATION"
+msgstr "Ver información básica del sitio"
+
+msgid "LABEL_MODIFY_BASIC_INFORMATION"
+msgstr "Corregir  información básica del sitio"
+
+msgid "LABEL_DISTANCE_BEFORE"
+msgstr "Desde mi ubicación actual"
+
+msgid "LABEL_DISTANCE_AFTER"
+msgstr "
+
+msgid "LABEL_DO_REGIST"
+msgstr "Registrar"
+
+msgid "LABEL_DO_SUBMIT"
+msgstr "Publicar"
+
+msgid "LABEL_DO_UPDATE"
+msgstr "Actualizar"
+
+msgid "LABEL_REVIEW_EVERYONE_SUBMITED"
+msgstr "Publicaciones de todo el mundo"
+
+msgid "LABEL_DO_SHARE"
+msgstr "Compartir"
+
+msgid "LABEL_ENTRY_STEPS"
+msgstr "Escalones en la entrada"
+
+msgid "LABEL_FACILITY_AND_OTHER_RATING"
+msgstr "Instalaciones/ Otros valores"
+
+msgid "LABEL_FACILITY"
+msgstr "Instalaciones"
+
+msgid "LABEL_FACILITY_DETAIL"
+msgstr "Detalles de las instalaciones"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_BABYCAR_RENT"
+msgstr "Préstamo de<br/>carros de bebé"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_ELEVATOR"
+msgstr "Ascensor"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_NURSING_ROOM"
+msgstr "Sala de lactancia"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_OSTOMATE_WC"
+msgstr "Cuarto de baño habilitados para<br/> ostomías"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_PARKING"
+msgstr "Aparcamiento general"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_PLUG"
+msgstr "Enchufes"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_SMOKING_ROOM"
+msgstr "Prohibido fumar・Zonas<br/>para fumadores"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_WHEELCHAIR_PARKING"
+msgstr "Aparcamiento preferente"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_WHEELCHAIR_RENT"
+msgstr "Préstamo de<br/>sillas de ruedas"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_WHEELCHAIR_WC"
+msgstr "Cuartos de baño<br/>habilitados para sillas de ruedas"
+
+msgid "LABEL_FACILITY_ITEM_COUNT_WIFI"
+msgstr "WiFi<br/>público"
+
+msgid "LABEL_FACILITY_ITEM_IS_BRIGHT"
+msgstr "Luminoso"
+
+msgid "LABEL_FACILITY_ITEM_IS_FLAT"
+msgstr "Llano"
+
+msgid "LABEL_FACILITY_ITEM_IS_SILENT"
+msgstr "Tranquilo"
+
+msgid "LABEL_FACILITY_ITEM_IS_SPACIOUS"
+msgstr "Espacioso"
+
+msgid "LABEL_FACILITY_ITEM_IS_UNIVERSAL_MANNER"
+msgstr "Costumbres<br/>universales"
+
+msgid "LABEL_FACILITY_ITEM_WITH_ASSISTANCE_DOG"
+msgstr "Se aceptan perros guía"
+
+msgid "LABEL_FACILITY_ITEM_WITH_CREDIT_CARD"
+msgstr "Se aceptan tarjetas<br/>de crédito"
+
+msgid "LABEL_FACILITY_ITEM_WITH_EMONEY"
+msgstr "Se acepta<br/>dinero electrónico"
+
+msgid "LABEL_FILTERING_CONDITION"
+msgstr "Requisitos de filtro"
+
+msgid "LABEL_FILTERING"
+msgstr "Filtro"
+
+msgid "LABEL_FOLLOW"
+msgstr "Seguir"
+
+msgid "LABEL_FOLLOWING"
+msgstr "Siguiendo"
+
+msgid "LABEL_SHARE_URL"
+msgstr "Compartir"
+
+msgid "LABEL_HOT_SPOT"
+msgstr "¡Atención a este sitio!"
+
+msgid "LABEL_MENU_ADVANCED_SEARCH"
+msgstr "Filtrar por instalaciones o colaborador"
+
+msgid "LABEL_MENU_CATEGORY_SEARCH"
+msgstr "Buscar por categoría"
+
+msgid "LABEL_MENU_CHAMPIONSHIP_COPY"
+msgstr "¡Se buscan participantes!"
+
+msgid "LABEL_MENU_CHAMPIONSHIP"
+msgstr "Campeonato de colaboración"
+
+msgid "LABEL_MENU_FOLLOW"
+msgstr "Seguir"
+
+msgid "LABEL_MENU_HELPS"
+msgstr "Ayuda"
+
+msgid "LABEL_MENU_HOTSPOT"
+msgstr "¡Atención a estos sitios!"
+
+msgid "LABEL_MENU_LOGOUT"
+msgstr "Cerrar sesión"
+
+msgid "LABEL_MENU_MAP"
+msgstr "Mapas"
+
+msgid "LABEL_MENU_MYPLACES"
+msgstr "Mis sitios"
+
+msgid "LABEL_MENU_MYTIMELINE"
+msgstr "Mi biografía"
+
+msgid "LABEL_MENU_NOTICES"
+msgstr "Noticias"
+
+msgid "LABEL_MENU_RANKING"
+msgstr "Clasificación"
+
+msgid "LABEL_MENU_RECOMMEND_USER"
+msgstr "Usuarios recomendados"
+
+msgid "LABEL_MENU_SETTINGS"
+msgstr "Ajustes"
+
+msgid "LABEL_MENU_CHANGE_USER_INFO"
+msgstr "Cambiar información de registro"
+
+msgid "LABEL_MENU_CHANGE_USER_PASSWORD"
+msgstr "Cambiar contraseña"
+
+msgid "LABEL_MENU_USER"
+msgstr "Mi cuenta"
+
+msgid "LABEL_NAME"
+msgstr "Nombre"
+
+msgid "LABEL_NEAREST_STATION"
+msgstr "Estación más cercana"
+
+msgid "LABEL_ORDINARY"
+msgstr "General"
+
+msgid "LABEL_PLACE_WANT_TO_GO"
+msgstr "Quiero ir"
+
+msgid "LABEL_SPOT_WANT_TO_GO"
+msgstr "Quiero ir"
+
+msgid "LABEL_SPOT_WENT_TO_GO"
+msgstr "Estuve allí"
+
+msgid "LABEL_POINT"
+msgstr "Puntos"
+
+msgid "LABEL_RANKING_NOW"
+msgstr "Clasificación actual"
+
+msgid "LABEL_RATE_VALUE_1"
+msgstr "Insatisfecho"
+
+msgid "LABEL_RATE_VALUE_2"
+msgstr "Ligeramente insatisfecho"
+
+msgid "LABEL_RATE_VALUE_3"
+msgstr "Normal"
+
+msgid "LABEL_RATE_VALUE_4"
+msgstr "Satisfecho"
+
+msgid "LABEL_RATE_VALUE_5"
+msgstr "Muy satisfecho"
+
+msgid "LABEL_RATING"
+msgstr "Valoración"
+
+msgid "LABEL_REGULAR_HOLIDAY"
+msgstr "Días de descanso habituales"
+
+msgid "LABEL_RESET"
+msgstr "Reinicio"
+
+msgid "LABEL_REVIEW_NO_FACILITY"
+msgstr "Sin registrar"
+
+msgid "LABEL_REVIEW_NO_STEP"
+msgstr "Sin registrar"
+
+msgid "LABEL_READ_MORE_SUBMIT"
+msgstr "Ver más publicaciones"
+
+msgid "LABEL_SAVE"
+msgstr "Guardar"
+
+msgid "LABEL_SPOT_REVIEW"
+msgstr "Críticas del sitio"
+
+msgid "LABEL_TEL_NUMBER"
+msgstr "Número de teléfono"
+
+msgid "LABEL_TOTAL_RANKING"
+msgstr "Clasificación global"
+
+msgid "LABEL_UNIVERSITY"
+msgstr "Universidades"
+
+msgid "LABEL_LIKE"
+msgstr "Me gusta"
+
+msgid "LABEL_USER_SUBMIT_RANKING"
+msgstr "Clasificación por número de usuarios colaboradores"
+
+msgid "LABEL_USERS_PHYSICAL_TYPE"
+msgstr "Físico del colaborador"
+
+msgid "LABEL_WHAT_IS_CHAMPHIONSHIP"
+msgstr "¿Campeonato de colaboración?"
+
+msgid "LABEL_SHOW_ROUTE"
+msgstr "Mostrar ruta"
+
+msgid "LABEL_SPOT_NAME"
+msgstr "Nombre del sitio"
+
+msgid "LABEL_SPOT_NAME_KANA"
+msgstr "Nombre del sitio (kana)"
+
+msgid "LABEL_STEP_NUM_0"
+msgstr "0 puntos"
+
+msgid "LABEL_STEP_NUM_1"
+msgstr "1 punto"
+
+msgid "LABEL_STEP_NUM_2"
+msgstr "2 puntos"
+
+msgid "LABEL_STEP_NUM_3"
+msgstr "3 puntos"
+
+msgid "LABEL_STEP_NUM_4"
+msgstr "3 o más puntos"
+
+msgid "LABEL_PUBLIC_PROFILE_EDIT"
+msgstr "Editar perfil público"
+
+msgid "LABEL_IMAGE_AVATAR"
+msgstr "Imagen de icono"
+
+msgid "LABEL_IMAGE_HEADER"
+msgstr "Imagen de cabecera"
+
+msgid "LABEL_NICKNAME"
+msgstr "Apodo"
+
+msgid "LABEL_PROFILE_COMMENT"
+msgstr "Comentarios del perfil"
+
+msgid "LANG_INPUT_SERACH_SPOT_PLACEHOLDER"
+msgstr "Buscar por zona, estación, categoría o palabras clave"
+
+msgid "LOGIN_SIGNUP_WITH_EMAIL_2"
+msgstr "Registro por dirección de correo electrónico / Iniciar sesión"
+
+msgid "LOGIN_SIGNUP_WITH_EMAIL"
+msgstr "Registro por email / Iniciar sesión"
+
+msgid "LOGIN_SIGNUP_WITH_FACEBOOK"
+msgstr "Registro por Facebook / Iniciar sesión"
+
+msgid "LOGIN_SIGNUP_WITH_TWITTER"
+msgstr "Registro por Twitter / Iniciar sesión"
+
+msgid "LOGIN_WITH_GUESTMODE"
+msgstr "Continuar como Invitado"
+
+msgid "Male"
+msgstr "Hombre"
+
+msgid "MESSAGE_CLICK_ADD_SPOT_ON_MAP"
+msgstr "Haz click en los lugares que quieres añadir."
+
+msgid "MESSAGE_INPUT_REVIEW_TEXT_AND_SUBMIT"
+msgstr "Haz click para añadir y publicar críticas de sitios."
+
+msgid "MESSAGE_NOTHING_IS_SELECTED"
+msgstr "Sin especificar"
+
+msgid "MESSAGE_PLEASE_JOIN_CREATE_MAPS"
+msgstr "Colabora en<br/>la creación de mapas sin barreras."
+
+msgid "MESSAGE_REGIST_EXPLAIN"
+msgstr "Para ver biografías <br/> publicar o compartir sitios<br/>es necesario registrarse."
+
+msgid "MESSAGE_SELECT_FROM_PULLDOWN"
+msgstr "-- Escoge --"
+
+msgid "MESSAGE_SHARE_WITH_URL"
+msgstr "Se puede pegar y compartir una URL."
+
+msgid "MESSAGE_NOPLACE_REVIEWED"
+msgstr "Aún no hay críticas de sitios."
+
+msgid "MESSAGE_NOPLACE_WANT_TO_GO"
+msgstr "Aún no hay sitios marcados con "Quiero ir"."
+
+msgid "LABEL_NEXT"
+msgstr "Siguiente"
+
+msgid "LABEL_NO"
+msgstr "No"
+
+msgid "MESSAGE_MUST_NOT_NULL_AND_LENGTH_AVAILABLE"
+msgstr "Introduce una contraseña de entre「%d~%d」caracteres."
+
+msgid "MESSAGE_FORMAT_NUMBER_AND_ALPHABET_ONLY"
+msgstr "Introduce caracteres alfanuméricos."
+
+msgid "MESSAGE_FORMAT_INVALID_EMAIL"
+msgstr "El formato de la dirección de correo electrónico no es válido. Introdúcela de nuevo."
+
+msgid "MESSAGE_ERROR_UPLOAD_IMAGE_SIZE"
+msgstr "Sube una imagen que no supere los %sMb"
+
+msgid "MESSAGE_PROFILE_UPDATED_SUCCESS"
+msgstr "Se ha actualizado el perfil."
+
+msgid "LABEL_REGISTER_PROFILE_INFO"
+msgstr "Registrar información del perfil"
+
+msgid "LABEL_CHANGE_REGISTER_PROFILE_INFO"
+msgstr "Cambiar la información del perfil"
+
+msgid "LABEL_SELECT_PHYSICAL_CHARACTERISTIC"
+msgstr "Escoger un rasgo físico destacable"
+
+msgid "LABEL_SELECT_SMORKING_STATUS"
+msgstr "¿Fumas?"
+
+msgid "SUBMIT_LOGIN"
+msgstr "Iniciar sesión"
+
+msgid "SUBMIT_SIGNUP"
+msgstr "Registro"
+
+msgid "MESSAGE_DUPLICATE_EMAIL"
+msgstr "Se ha registrado la dirección de correo electrónico. Por favor, inicia sesión."
+
+msgid "MESSAGE_EMAIL_MUST_CONTAIN_VALID_ADDRESS"
+msgstr "La dirección de correo electrónico no es correcta."
+
+msgid "MESSAGE_PASSWORD_CONFIRM_NOT_MATCH"
+msgstr "Las contraseñas no coinciden."
+
+msgid "MESSAGE_INFO_SENT_TO_EMAIL_PLEASE_CHECK"
+msgstr "Se ha enviado la información de la contraseña a tu correo electrónico. Revisa tu bandeja de correo."
+
+msgid "LABEL_YES"
+msgstr "Sí"
+
+msgid "MESSAGE_WRONG_PASSWORD_LENGTH"
+msgstr "Introduce una contraseña de entre 6 y 40 caracteres"
+
+msgid "LABEL_EDIT_BASIC_INFORMATION"
+msgstr "Editar"
+
+msgid "LABEL_FOLLOWER"
+msgstr "Seguidores"
+
+msgid "LABEL_USER_ATTRIBUTE"
+msgstr "Atributos de usuario"
+
+msgid "LABEL_PAST_CONTRIBUTION"
+msgstr "Publicaciones anteriores"
+
+msgid "LABEL_NOTIFICATION_SETTING"
+msgstr "Configuración de notificaciones"
+
+msgid "LABEL_EDIT"
+msgstr "Editar perfil"
+
+msgid "TEXT_HOW_MANY_LIKE"
+msgstr "Me gusta <span>%d</span> respuesta"
+
+msgid "TEXT_HOW_MANY_COMMENT"
+msgstr "Comentar <span>%d</span> respuesta"
+
+msgid "LABEL_MENU_CHANGE_TEAM_INFO"
+msgstr "Cambiar información del equipo"
+
+msgid "LABEL_TEAM_NAME"
+msgstr "Nombre del equipo"
+
+msgid "LABEL_DECISION"
+msgstr "Decidir"
+
+msgid "LABEL_SECTION"
+msgstr "Sección"
+
+msgid "LABEL_SECTION_INPUT"
+msgstr "Escoge una sección"
+
+msgid "LABEL_SECTION_GENERAL"
+msgstr "General"
+
+msgid "LABEL_SECTION_COMPANY"
+msgstr "Empresa"
+
+msgid "LABEL_SECTION_UNIVERSITY"
+msgstr "Universidad"
+
+msgid "LABEL_CREATE_TEAM_TITLE"
+msgstr "Crea un equipo."
+
+msgid "LABEL_SELECT_TEAM_TITLE"
+msgstr "Escoge el equipo al que quieres pertenecer"
+
+msgid "LABEL_SIGNUP_TEAM"
+msgstr "Condiciones de registro"
+
+msgid "LABEL_BUTTON_START"
+msgstr "Comenzar"
+
+msgid "LABEL_CLOSE"
+msgstr "Cerrar"
+
+msgid "LABEL_CHAMPIONSHIP_TITLE_1"
+msgstr "Campeonato de colaboración"
+
+msgid "LABEL_CHAMPIONSHIP_DETAIL_1"
+msgstr "Se trata de una competición en la que todos colaboran, publican información sin barreras y compiten por esos números."
+
+msgid "LABEL_CHAMPIONSHIP_TITLE_2"
+msgstr "Cómo participar"
+
+msgid "LABEL_CHAMPIONSHIP_DETAIL_2"
+msgstr "· Pulsa el botón "Comenzar" para escoger el equipo al que perteneces (también se puede hacer desde el apartado Ajustes). <br/> · Sólo con publicar se añadirán los puntos de forma automática al grupo al que preteneces."
+
+msgid "LABEL_EDIT_PROFILE"
+msgstr "Editar perfil"
+
+msgid "LABEL_CATEGORY_NAME_MOBILITY"
+msgstr "Movilidad"
+
+msgid "LABEL_CATEGORY_NAME_CAR"
+msgstr "Coches"
+
+msgid "LABEL_CATEGORY_NAME_LEISURE"
+msgstr "Ocio"
+
+msgid "LABEL_CATEGORY_NAME_FOOD"
+msgstr "Comida"
+
+msgid "LABEL_CATEGORY_NAME_LIFE"
+msgstr "Vida"
+
+msgid "LABEL_CATEGORY_NAME_PUB"
+msgstr "Público"
+
+msgid "LABEL_CATEGORY_NAME_WELLNESS"
+msgstr "Bienestar"
+
+msgid "LABEL_CATEGORY_NAME_SHOP"
+msgstr "Tiendas"
+
+msgid "LABEL_SEARCH_NO_SELECT"
+msgstr "No se ha escogido nada"
+
+msgid "LABEL_SPOT_NOT_FOUND"
+msgstr "No se encuentra el sitio"
+
+msgid "LABEL_SPOT_NOT_REGISTERED"
+msgstr "Este sitio todavía no se ha registrado"
+
+msgid "LABEL_SEARCH_KEYWORD_RESULT"
+msgstr "Resultados de búsqueda"
+
+msgid "MESSAGE_SYSTEM_ERROR_TRY_AGAIN"
+msgstr "Dado que se ha producido un error, inténtalo de nuevo."
+
+msgid "MESSAGE_PASSWORD_NOT_EMPTY"
+msgstr "Es necesaria la contraseña"
+
+msgid "MESSAGE_WRONG_PHONE_LENGTH"
+msgstr "Introduce un número de teléfono de hasta 13 caracteres."
+
+msgid "MESSAGE_DUPLICATE_NAME"
+msgstr "Este nombre ya está registrado."
+
+msgid "MESSAGE_NOT_EXIST_NAME"
+msgstr "El nombre no existe."
+
+msgid "MESSAGE_NOT_CHANGE_TEAM"
+msgstr "El equipo no cambia."
+
+msgid "LABEL_SUBMIT"
+msgstr "Enviar"
+
+msgid "LABEL_UNFOLLOW"
+msgstr "Dejar de seguir"
+
+msgid "LABEL_CHANGE"
+msgstr "Actualizar"
+
+msgid "LABEL_OTHER"
+msgstr "Otros"
+
+msgid "LABEL_POST_GUIDELINE"
+msgstr "Indicaciones para publicar"
+
+msgid "LABEL_TERM_OF_USE"
+msgstr "Condiciones de uso"
+
+msgid "LABEL_PRIVACY_POLICY"
+msgstr "Política de privacidad"
+
+msgid "LABEL_CREDIT"
+msgstr "Crédito"
+
+msgid "MESSAGE_GEO_ERROR_PERMISSION_DENIED"
+msgstr "El usuario ha rechazado la solicitud de geolocalización."
+
+msgid "MESSAGE_GEO_ERROR_POSITION_UNAVAILABLE"
+msgstr "La información de posición no está disponible."
+
+msgid "MESSAGE_GEO_ERROR_TIMEOUT"
+msgstr "La solicitud para obtener la posición ha expirado."
+
+msgid "MESSAGE_GEO_ERROR_UNKNOWN_ERROR"
+msgstr "Se ha producido un error desconocido."
+
+msgid "MESSAGE_GEO_ERROR_BROWSER_NOT_SUPPORT"
+msgstr "Este navegador no soporta la geolocalización."
+
+msgid "LABEL_ERROR"
+msgstr "Error"
+
+msgid "ERROR_MESSAGE_NAME_EMPTY"
+msgstr "Introduce el nombre del equipo"
+
+msgid "ERROR_MESSAGE_SECTION_EMPTY"
+msgstr "Introduce las secciones"
+
+msgid "ERROR_MESSAGE_CATEGORY_EMPTY"
+msgstr "Introduce las categorías"
+
+msgid "PRF_ERROR_MESSAGE_MISSING_NAME"
+msgstr "Introduce tu nombre"
+
+msgid "PRF_ERROR_MESSAGE_MISSING_SEX"
+msgstr "Introduce tu sexo"
+
+msgid "PRF_ERROR_MESSAGE_MISSING_BIRTHDAY"
+msgstr "Introduce tu fecha de nacimiento"
+
+msgid "PRF_ERROR_MESSAGE_MISSING_ZIPCODE"
+msgstr "Introduce tu código postal"
+
+msgid "PRF_ERROR_MESSAGE_FORMAT_ZIPCODE"
+msgstr "El formato del código postal no es válido"
+
+msgid "PRF_ERROR_MESSAGE_MISSING_PHYSICAL_TYPE"
+msgstr "Escoge un rasgo físico destacable"
+
+msgid "PRF_ERROR_MESSAGE_MISSING_SMOKER"
+msgstr "¿Fumas?"
+
+msgid "MESSAGE_CONFIRM_LOGOUT"
+msgstr "¿Quieres finalizar tu sesión?"
+
+msgid "LABEL_DELETE"
+msgstr "Eliminar"
+
+msgid "MESSAGE_REPORT_SPOT"
+msgstr "Se ha procesado la solicitud de eliminación. El equipo administrativo la revisará<br/>y si encuentra algún problema procederá a la eliminación."
+
+msgid "MESSAGE_CONFIRM_DELETE_SPOT"
+msgstr "¿Quieres eliminar?"
+
+msgid "LABEL_APPLY"
+msgstr "Solicitar"
+
+msgid "MESSAGE_REPORT_SPOT_TITLE"
+msgstr "Escoge una razón por la que deseas eliminar el sitio."
+
+msgid "MESSAGE_CANNOT_DELETE_SPOT"
+msgstr "No se puede eliminar el sitio."
+
+msgid "ERROR_MESSAGE_SPOT_NAME_EMPTY"
+msgstr "Introduce el nombre."
+
+msgid "ERROR_MESSAGE_SPOT_CATEGORY_EMPTY"
+msgstr "Escoge una categoría."
+
+msgid "MESSAGE_ACTIVE_SUCCESS"
+msgstr "Se ha completado la comprobación de la cuenta de correo electrónico.<br/>Pulsa el botón de abajo para abrir la aplicación."
+
+msgid "LABEL_OPEN_APP"
+msgstr "Abrir app"
+
+msgid "LABEL_REQUIRE_PASSWORD_OLD"
+msgstr "Introduce la contraseña actual."
+
+msgid "LABEL_REQUIRE_PASSWORD_NEW"
+msgstr "Introduce la contraseña nueva."
+
+msgid "LABEL_REQUIRE_PASSWORD_CONFIRM"
+msgstr "Introduce de nuevo la contraseña nueva."
+
+msgid "MESSAGE_INVALID_PASSWORD_TRY_AGAIN"
+msgstr "La contraseña no es correcta. Introdúcela de nuevo."
+
+msgid "LABEL_CURRENT_PASSWORD"
+msgstr "Contraseña actual"
+
+msgid "LABEL_NEW_PASSWORD"
+msgstr "Nueva contraseña"
+
+msgid "LABEL_NEW_CONFIRM_PASSWORD"
+msgstr "Introducir la nueva contraseña otra vez."
+
+msgid "LABEL_VICINITY"
+msgstr "Alrededores y sitios cercanos"
+
+msgid "LABEL_AGREE_TERMS_OF_USE"
+msgstr "Acepta las condiciones de uso."
+
+msgid "LABEL_AGREE"
+msgstr "Aceptar"
+
+msgid "LABEL_MENU_USER_RANKING"
+msgstr "Ranking de usuarios"
+
+msgid "LABEL_COIN"
+msgstr "Monedas"
+
+msgid "LABEL_GET_COIN"
+msgstr "¡Consigue Bcoins!"
+
+msgid "LABEL_YOUR_RANKING"
+msgstr "Estás en el puesto"
+
+msgid "LABEL_YOUR_RANKING_VALUE"
+msgstr "%sPuesto"
+
+msgid "LABEL_COIN_TYPE_GET"
+msgstr "Adquisición"
+
+msgid "LABEL_COIN_TYPE_USED"
+msgstr "Uso"
+
+msgid "LABEL_EMPTY_COIN"
+msgstr "Aquí se muestra el historial de las Bcoins que has conseguido."
+
+msgid "LABEL_REVIEW"
+msgstr "Crítica"
+
+msgid "LABEL_ADD_SPOT"
+msgstr "Añadir sitio"
+
+msgid "LABEL_GUEST"
+msgstr "Invitados"
+
+msgid "MESSAGE_1USER_1REVIEW"
+msgstr "Duplicar crítica"
+
+msgid "LABEL_HISTORY"
+msgstr "Historial"
+
+msgid "LABEL_INFORMATION"
+msgstr "Información"
+
+msgid "MESSAGE_TEAM_CHANGED_JS"
+msgstr "El equipo{0} se ha establecido."
+
+msgid "LABEL_INDOOR_VIEW"
+msgstr "Entrevistas"
+
+msgid "LABEL_LICENSE"
+msgstr "Origen de las fuentes"
+
+msgid "LABEL_REVIEWER_NUMBER"
+msgstr "Número de críticas de colaboradores"
+
+msgid "LABEL_REVIEWER_NUMBER_MARK"
+msgstr "Personas"
+
+msgid "LABEL_COMMENT_INPUT"
+msgstr "Añadir comentario"
+
+msgid "MESSAGE_TIMELINE_NO_NEAR"
+msgstr "Introduce tu código postal y las críticas que se publiquen de sitios cercanos<br/>aparecerán en tu biografía."
+
+msgid "LABEL_SETTING"
+msgstr "Establecer"
+
+msgid "MESSAGE_EMPTY_SPOT_REVIEW"
+msgstr "Introduce el contenido de tu crítica."
+
+msgid "LABEL_HELP_TITLE"
+msgstr "Ayuda (cómo usar Bmaps)"

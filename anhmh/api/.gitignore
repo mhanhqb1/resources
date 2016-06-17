@@ -1,0 +1,42 @@
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+*.tmproj
+build
+.idea
+nbproject/
+
+# hidden files created by Windows
+# Thumbs.db
+# desktop.ini
+
+# the composer package lock file and install directory
+# /composer.lock
+/fuel/vendor
+
+# any of the fuel packages installed by default
+/fuel/core/
+/fuel/packages/auth/
+/fuel/packages/oil/
+/fuel/packages/orm/
+/fuel/packages/parser/
+
+# dynamically generated files
+/fuel/app/config/crypt.php
+/fuel/app/config/development
+
+# logs
+/fuel/app/tmp
+/fuel/app/cache
+/fuel/app/logs/
+/fuel/app/logs_bk/
+
+# test
+/public/test.php
+
+# Slave
+/fuel/app/config/production/db.read.php

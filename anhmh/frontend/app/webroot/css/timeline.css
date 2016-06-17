@@ -1,0 +1,10 @@
+.tlTop {
+    margin-top: 20px;
+}
+#plcListTimeline .tlBotTotal a {
+    color: #fff;
+}
+#plcListTimeline .tlBotTotal a:hover {    
+    text-decoration: none;
+}
+    

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Bremen" default="default">
+
+    <property name="repo.dir" value="/var/www/html/oceanize/bremen/api" />
+    <resolvepath propertyName="repo.dir.resolved" file="${repo.dir}" />
+    <target name="default">
+        <echo msg="Bremen Api" />
+    </target>
+
+    <target name="pull" description="Update code from git">
+        <echo msg="Pulling" />
+        <gitpull
+            repository="${repo.dir.resolved}"
+            source="origin" refspec="master"
+            strategy="recursive" keep="true"
+            force="true" quiet="true" norebase="true" />
+    </target>
+
+</project>
