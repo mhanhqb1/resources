@@ -1,0 +1,30 @@
+2016-06-08 06:33:32 Notice: Notice (8): Undefined property: Cake\Database\Connection::$_driver in [C:\xampp\htdocs\vcc\anhmh\admin\vendor\cakephp\cakephp\src\Database\Connection.php, line 732]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Database\Connection::__debugInfo() - CORE\src\Database\Connection.php, line 732
+Cake\Database\Connection::__destruct() - CORE\src\Database\Connection.php, line 123
+[main] - [internal], line ??
+
+
+
+2016-06-08 06:33:36 Notice: Notice (8): Undefined property: Cake\Database\Connection::$_driver in [C:\xampp\htdocs\vcc\anhmh\admin\vendor\cakephp\cakephp\src\Database\Connection.php, line 732]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Database\Connection::__debugInfo() - CORE\src\Database\Connection.php, line 732
+Cake\Database\Connection::__destruct() - CORE\src\Database\Connection.php, line 123
+[main] - [internal], line ??
+
+
+
+2016-06-08 06:33:39 Notice: Notice (8): Undefined property: Cake\Database\Connection::$_driver in [C:\xampp\htdocs\vcc\anhmh\admin\vendor\cakephp\cakephp\src\Database\Connection.php, line 732]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Database\Connection::__debugInfo() - CORE\src\Database\Connection.php, line 732
+Cake\Database\Connection::__destruct() - CORE\src\Database\Connection.php, line 123
+[main] - [internal], line ??
+
+
+
