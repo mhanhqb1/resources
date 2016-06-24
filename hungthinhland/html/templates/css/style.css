@@ -181,7 +181,6 @@ h4 {
 .description > span:hover {
 	background-color: #fff;
 	color: #333;
-	font-weight: normal;
 }
 .thumb-img:hover img {
 	opacity: 0.6;
