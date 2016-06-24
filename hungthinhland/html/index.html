@@ -1,19 +1,170 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <title>Hung Thinh Land</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<title>Hung Thinh Land</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="templates/css/style.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="templates/js/scrolling.js"></script>
 </head>
-<body>
-
-<div class="jombotron">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!-- Navbar Start -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  	<div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="#">Logo</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#about">ABOUT</a></li>
+	        <li><a href="#services">SERVICES</a></li>
+	        <li><a href="#portfolio">PORTFOLIO</a></li>
+	        <li><a href="#pricing">PRICING</a></li>
+	        <li><a href="#contact">CONTACT</a></li>
+	      </ul>
+	    </div>
+  	</div>
+</nav>
+<!-- Navbar End -->
+<!-- Jumbotron Start -->
+<div id="about" class="jumbotron text-center">
 	<h1>Company</h1> 
 	<p>We specialize in blablabla</p> 
 </div>
+<!-- Jumbotron End -->
+<!-- About Company Start -->
+<div id="services" class="container  slideanim slide">
+  	<div class="row text-center">
+	    <div class="col-sm-4">
+	      	<img class="full-width" src="templates/images/bds_dacbiet.jpg"> 
+	    </div>
+	    <div class="col-sm-4">
+	      	<img class="full-width" src="templates/images/bds_giatot.png"> 
+	    </div>
+	    <div class="col-sm-4">
+	      	<img class="full-width" src="templates/images/bds_moi.png"> 
+	    </div>
+  	</div>
+</div>
+<!-- About Company End -->
+<!-- Main Content Start -->
+<div id="portfolio" class="container-fluid text-center">
+  	<div class="slideanim">
+  		<h2>DỰ ÁN TẠI TP.HCM</h2>
+  		<h4>What we have created</h4>
+	</div>
+  	<div class="row text-center">
+	    <div class="col-sm-4 slideanim">
+	      <div class="thumbnail">
+	        <img class="full-width" src="templates/images/duan1.jpg" alt="Paris">
+	        <p><strong>Paris</strong></p>
+	        <p>Yes, we built Paris</p>
+	      </div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan2.jpg" alt="Paris">
+		        <p><strong>New York</strong></p>
+		        <p>We built New York</p>
+	      	</div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan3.jpg" alt="Paris">
+		        <p><strong>San Francisco</strong></p>
+		        <p>Yes, San Fran is ours</p>
+	      	</div>
+	    </div>
+	</div>
+	<div class="row text-center">
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan4.jpg" alt="Paris">
+		        <p><strong>Paris</strong></p>
+		        <p>Yes, we built Paris</p>
+	     	</div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan5.jpg" alt="Paris">
+		        <p><strong>New York</strong></p>
+		        <p>We built New York</p>
+	      	</div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan6.jpg" alt="Paris">
+		        <p><strong>San Francisco</strong></p>
+		        <p>Yes, San Fran is ours</p>
+	      	</div>
+	    </div>
+	</div>
+</div>
+<!-- Main Content End -->
+<!-- Main Content Start -->
+<div id="pricing" class="container-fluid text-center">
+  	<div class="slideanim">
+  		<h2>CÁC TỈNH THÀNH KHÁC</h2>
+  		<h4>What we have created</h4>
+  	</div>
+  	<div class="row text-center">
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img src="templates/images/duan1.jpg" alt="Paris">
+		        <p><strong>Paris</strong></p>
+		        <p>Yes, we built Paris</p>
+	      	</div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img src="templates/images/duan2.jpg" alt="Paris">
+		        <p><strong>New York</strong></p>
+		        <p>We built New York</p>
+	      	</div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img src="templates/images/duan3.jpg" alt="Paris">
+		        <p><strong>San Francisco</strong></p>
+		        <p>Yes, San Fran is ours</p>
+	      	</div>
+	    </div>
+	</div>
+	<div class="row text-center">
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan4.jpg" alt="Paris">
+		        <p><strong>Paris</strong></p>
+		        <p>Yes, we built Paris</p>
+	      	</div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan5.jpg" alt="Paris">
+		        <p><strong>New York</strong></p>
+		        <p>We built New York</p>
+	      	</div>
+	    </div>
+	    <div class="col-sm-4 slideanim">
+	      	<div class="thumbnail">
+		        <img class="full-width" src="templates/images/duan6.jpg" alt="Paris">
+		        <p><strong>San Francisco</strong></p>
+		        <p>Yes, San Fran is ours</p>
+	      	</div>
+	    </div>
+	</div>
+</div>
+<!-- Main Content End -->
 
 </body>
 </html>
