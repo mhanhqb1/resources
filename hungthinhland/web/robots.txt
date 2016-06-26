@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://tapdoanhungthinh.vn/sitemap.xml
