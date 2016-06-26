@@ -837,10 +837,10 @@ p.giaduan span{
 	background: url('../images/bg-support.png') no-repeat;
 	position: relative;
 	padding-top: 85px;
-	margin-top: 40px;
+	margin-top: 80px;
 }
 #supportTitle{
-	margin-top: -120px;
+	margin-top: -150px;
     text-align: center;
 }
 #supportTitle span {

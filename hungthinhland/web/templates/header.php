@@ -17,10 +17,14 @@
   <link rel="shortcut icon" href="templates/images/Icon-SGD.png">
   <link href="templates/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
   <link href="templates/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Josefin Slab" rel="stylesheet" type="text/css">
   <link href="templates/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="templates/css/generalnew2.css" rel="stylesheet" type="text/css">
   <link href="templates/css/menu.css" rel="stylesheet" type="text/css">
   <link href="templates/css/vertical_tabmenu.css" rel="stylesheet" type="text/css">
+  <link href="templates/css/new_design.css" rel="stylesheet" type="text/css">
 
   <script type="text/javascript" src="templates/js/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="templates/js/bootstrap.min.js"></script>
@@ -70,8 +74,8 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1548784618756974";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
-  <div style="margin-top:-18px;">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    
+  <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <img class="banner-mobile" src="templates/images/banner.png">
@@ -97,42 +101,16 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div id="warpper" class="container">
-        <div class="header_middle"> 
+    
+    <!-- <div class="header_middle"> 
           <div class="logo">
             <a href="trang-chu.html"><img src="templates/images/logo_HTL2.png"></a>
           </div>
           <div class="banner">
             <img src="templates/images/banner1.png">
           </div>
+    </div> -->
+        <div id="about" class="jumbotron text-center">
+          <h1>HUNG THINH LAND</h1> 
+          <p>Nơi nuôi dưỡng ước mơ</p> 
         </div>
-        <div class="duanmoi">
-
-
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <?php while($count < count($slider_data)): ?>
-                <li data-target="#myCarousel" data-slide-to="<?php echo $count;?>" <?php if($count==0) echo 'class="active"'; ?>></li>
-                <!-- <li id="scroll-down" class="active"></li> -->
-                <?php $count++; endwhile; ?>
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <?php if ($slider_data): $count = 0;?>
-                  <?php foreach ($slider_data as $v): ?>
-                    <div class="item <?php if($count==0) echo 'active';?>">
-                      <a href="<?php echo $v['link'];?>" target="_blank"><img src="media/images/sliders/<?php echo $v['image'];?>" alt="tap doan hung thinh"></a>
-                    </div>
-                    <?php $count++; endforeach; ?>
-                  <?php endif;?>
-                </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-            <div class="row main-content">

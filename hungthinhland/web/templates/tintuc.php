@@ -7,7 +7,7 @@ $news = new NEWS;
 		$id = $_GET['id'];
 		$data = $news->listOne($id);
 	?>
-	<div class="col-md-9 chitietduan">
+	<div class="container chitietduan">
 	<h1><?php echo $data['title'];?></h1>
 	<?php echo $data['detail'];?>
 
@@ -24,7 +24,7 @@ $news = new NEWS;
 		}
 		$data = pagination($start, $limit, $data);
 	?>
-	<div class="left_pannel col-md-9">
+	<div class="container">
         <div class="title_sub">
         	<h1>
         		<a>Tin tức và sự kiện</a>

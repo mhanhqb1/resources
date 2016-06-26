@@ -30,7 +30,7 @@
 					<label>Hình ảnh mới:</label>
                     <input type="file" name="fNewImage"/>
                 </div>
-				<div class="form-group" style="display:none">
+				<div class="form-group">
                     <label>Giới thiệu:</label>
                     <textarea name="txtDescription" class="form-control" rows="8"><?php echo $data['description'];?></textarea>
                 </div>

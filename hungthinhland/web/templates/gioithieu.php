@@ -1,5 +1,5 @@
 
-<div class="col-md-9 chitietduan">
+<div class="container chitietduan">
 <?php 
 	$intro = new INTRODUCTION;
 	echo $intro->getIntroContent();

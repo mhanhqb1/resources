@@ -26,7 +26,7 @@
 					<label>Hình ảnh:</label>
                     <input type="file" name="fImage">
                 </div>
-                <div class="form-group" style="display:none">
+                <div class="form-group">
                     <label>Giới thiệu:</label>
                     <textarea name="txtDescription" class="form-control" rows="8">sadsa</textarea>
                 </div>

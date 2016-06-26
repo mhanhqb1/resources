@@ -41,7 +41,6 @@ if(isset($_GET['controller'])){
 }else{
 	require_once "templates/main.php";
 }
-require_once "templates/left.php";
 require_once "templates/footer.php";
 ob_flush();
 ?>

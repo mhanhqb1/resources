@@ -1,3 +1,5 @@
+
+<div class="clearfix"></div>
 <div class="container banner_lienhe">
       <div id="supportTitle"><span>Tư vấn khách hàng</span></div>
             <div id="supportMan" class="row">
@@ -12,7 +14,6 @@
       </div>
             <div id="hotline247">Tổng đài hot:  <span><?php echo $contactData['tongdailienhe'];?></span></div>
 </div>
-<div class="clearfix"></div>
 <div id="footer">
   <div id="footer-widget-area" class="footer-3c container">
 

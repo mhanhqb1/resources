@@ -14,7 +14,7 @@ if (isset($_POST['lienhesubmit'])) {
     $mess = "Cảm ơn <strong>$name</strong> đã liên hệ, chúng tôi sẽ trả lời tin nhắn của bạn sớm nhất có thể.";
 }
 ?>
-<div class="col-md-9 chitietduan">
+<div class="container chitietduan">
 <div class="post-inner">
 				<h1 class="name post-title entry-title" itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Thing"><span itemprop="name">Liên hệ</span></h1>
 				<p class="post-meta"></p>

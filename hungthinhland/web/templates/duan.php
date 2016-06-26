@@ -38,7 +38,7 @@ if (isset($_GET['type'])) {
 
 <?php if ($id): ?>
 	<?php $data = $duan->listOne($id);?>
-	<div class="col-sm-12 col-md-9 chitietduan">
+	<div class="container chitietduan">
 		<h1><?php echo $data['title'];?></h1>
 		<div class="tabscontainer">
 			<script type="text/javascript" src="templates/js/jquery.min.js"></script>
