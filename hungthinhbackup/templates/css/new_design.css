@@ -1,0 +1,192 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    color: #818181;
+}
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+.jumbotron h1 {
+    color: red !important;
+    margin-top: 0;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+.bg-grey{
+	background-color: #f6f6f6; 
+}
+.bg-xanh-nhat{
+	background-color: rgba(106, 234, 132, 0.2);
+}
+.full-width{
+	width: 100%;
+}
+h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #f4511e;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 2px 2px 5px grey;
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/*
+* AnhMH 2016/06/24
+* Header style
+*/
+.jumbotron{
+	background: url('../images/bg_jumbotron.jpg');
+	background-size: 100% 100%;
+	padding: 150px 25px;
+}
+.jumbotron p{
+    font-style: italic;
+    color: red;
+}
+.jumbotron::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    top: 20;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar li > a:after {
+          content: '|';
+          position: absolute;
+          right: 0px;
+    }
+}
+a.no-after:after{content: "" !important;}
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+}
+/* Header style end */
+/*
+* AnhMH 2016/06/24
+* Main content style
+*/
+.container-fluid{
+	padding: 20px 40px;
+}
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;    
+    text-align: center;    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.thumbnail > p {
+    height: 40px;
+}
+.thumb-img {
+	position: relative;
+	background-color: #00b0ff;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.thumbnail:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail img {
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.description {
+	position: absolute;
+    top: 15%;
+    z-index: 99;
+    left: 20%;
+    color: #fff;
+    font-size: 13px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.description > a.btn {
+	border: 2px solid #fff;
+	border-radius: 5px;
+	font-style: 15px;
+	font-weight: bold;
+        color: #fff;
+}
+.description > span:hover {
+	background-color: #fff;
+	color: #333;
+	font-weight: normal;
+}
+.thumb-img:hover img {
+	opacity: 0.6;
+}
+.thumb-img:hover .description{
+	opacity: 1;
+	transform: translate3d(-40px,0,0);
+}
+/* Main content style end */

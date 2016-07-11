@@ -1,0 +1,3 @@
+User-agent: *
+Crawl-delay: 60
+Sitemap: http://tapdoanhungthinh.vn/sitemap.xml

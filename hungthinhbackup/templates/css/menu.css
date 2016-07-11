@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+ .lavaLampNoImage {
+            position: relative;
+            margin-top:7px;
+            overflow: hidden;
+        }
+                .lavaLampNoImage li {
+                    float: left;
+                    list-style: none;
+                }
+                    .lavaLampNoImage li.back {
+						-webkit-border-radius : 8px;
+                       border-radius:8px;
+                        background-color: #3b3a3a;
+                        width: 9px;
+                        height: 30px;
+                        z-index: 8;
+                        position: absolute;
+                    }
+                    .lavaLampNoImage li a {
+                        font:  12px arial;
+                        text-decoration: none;
+                        color: #9d9c9c;
+                        outline: none;
+                        text-align: center;
+                        top: 7px;
+                        
+                        letter-spacing: 0;
+                        z-index: 10;
+                        display: block;
+                        float: left;
+                        height: 30px;
+                        position: relative;
+                        overflow: hidden;
+                        margin: auto 14px;
+                    }
+                        .lavaLampNoImage li a:hover, .lavaLampNoImage li a:active, .lavaLampNoImage li a:visited {
+                            border: none;
+                        }     
