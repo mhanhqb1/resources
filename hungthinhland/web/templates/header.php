@@ -1,5 +1,6 @@
 <?php
   $menuActived = isset($_GET['controller']) ? $_GET['controller'] : '';
+  $action = isset($_GET['action']) ? $_GET['action'] : '';
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -91,8 +92,8 @@
             <li <?php if ($menuActived == '') echo "class='active'";?>><a href="trang-chu.html">Trang chủ</a></li>
               <li <?php if ($menuActived == 'gioithieu') echo "class='active'";?>><a href="gioi-thieu.html">Giới thiệu</a></li>
               <li <?php if ($menuActived == '1' || $menuActived == 'duan') echo "class='active'";?>><a href="du-an.html">Dự án</a></li>
-              <li <?php if ($menuActived == 'tintuc') echo "class='active'";?>><a href="tin-tuc.html">Tin tức</a></li>
-              <li <?php if ($menuActived == 'tuyendung') echo "class='active'";?>><a href="tuyen-dung.html">Tuyển dụng</a></li>
+              <li <?php if ($menuActived == 'tintuc' && $action == 1) echo "class='active'";?>><a href="tin-tuc.html">Tin tức</a></li>
+              <li <?php if ($menuActived == 'tintuc' && $action == 0) echo "class='active'";?>><a href="phong-thuy.html">Phong thủy</a></li>
               <li <?php if ($menuActived == 'lienhe') echo "class='active'";?>><a href="lien-he.html">Liên hệ</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

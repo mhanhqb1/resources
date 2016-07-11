@@ -29,13 +29,13 @@
                 </ul>
             </li>
             <li>
-                <a href="#"><i class="glyphicon glyphicon-book"></i> Quản lý tin tức<span class="fa arrow"></span></a>
+                <a href="#"><i class="glyphicon glyphicon-book"></i> Quản lý tin tức, phong thủy<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="index.php?controller=tintuc&action=list">Danh sách tin tức</a>
+                        <a href="index.php?controller=tintuc&action=list">Danh sách tin tức, phong thủy</a>
                     </li>
                     <li>
-                        <a href="index.php?controller=tintuc&action=add">Thêm tin tức</a>
+                        <a href="index.php?controller=tintuc&action=add">Thêm tin tức, phong thủy</a>
                     </li>
                 </ul>
             </li>

@@ -56,8 +56,8 @@
 			return $data;
 		}
 
-		public function listAll(){
-			$sql = "SELECT * FROM news ORDER BY news_id DESC";
+		public function listAll($is_tintuc){
+			$sql = "SELECT * FROM news WHERE is_tintuc = '".$is_tintuc."' ORDER BY news_id DESC";
 			$this->query($sql);
 			$new = '';
 			if($this->num_rows() != 0){

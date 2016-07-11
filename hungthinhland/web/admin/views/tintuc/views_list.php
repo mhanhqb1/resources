@@ -14,6 +14,7 @@
                                 <th>Tiêu đề</th>
                                 <th>Hình ảnh</th>
                                 <th>Giới thiệu</th>
+                                <th>Thể loại</th>
 								<th>Nổi bật</th>
                                 <th></th>
                                 <th></th>
@@ -27,6 +28,7 @@
 								<td><?php echo $v['title']; ?></td>
                                 <td><img src="../media/images/news/<?php echo $v['image']; ?>" width="100"/></td>
                                 <td><?php echo $v['description']; ?></td>
+                                <td><?php if($v['is_tintuc'] == 1) echo 'Tin tức'; else echo 'Phong thủy'; ?></td>
                                 <td><?php if($v['is_featured'] == 1) echo 'Có'; else echo 'Không'; ?></td>
                                 <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a onclick="return confirm('Bạn có muốn xóa tin tức này?')" href="index.php?controller=tintuc&action=del&id=<?php echo $v['news_id'];?>">Xóa</a></td>
                                 <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="index.php?controller=tintuc&action=edit&id=<?php echo $v['news_id'];?>">Sửa</a></td>

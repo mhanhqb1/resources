@@ -24,6 +24,7 @@ if(isset($_POST['submit'])){
 		$err[] = 'Vui lòng chọn vị trí!';
 	}
 	$featured = $_POST['rdoFeatured'];
+	$istintuc = $_POST['rdoTintuc'];
 	if($image && $description && $detail && $title){
 		$new = new NEWS;
 		$new->setImage($image);
@@ -31,6 +32,7 @@ if(isset($_POST['submit'])){
 		$new->setDetail($detail);
 		$new->setDescription($description);
 		$new->setIsFeatured($featured);
+		$new->setIsTintuc($istintuc);
 		if($new->checkImageExist()){
 			$new->insert();
 			$upload = new UPLOAD($_FILES['fImage']['name'], $_FILES['fImage']['type'], $_FILES['fImage']['tmp_name'], $_FILES['fImage']['size']);

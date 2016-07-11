@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Chỉnh sửa hình ảnh
+                <h1 class="page-header">Chỉnh sửa tin tuc
                 </h1>
             </div>
             <?php if($err): ?>
@@ -37,6 +37,15 @@
 				<div class="form-group">
                     <label>Nội dung:</label>
                     <textarea name="txtDetail" class="form-control" rows="15"><?php echo $data['detail'];?></textarea>
+                </div>
+                <div class="form-group">
+                    <label>The loai: </label>
+                    <label class="radio-inline">
+                        <input name="rdoTintuc" value="1" <?php if($data['is_tintuc'] == 1) echo 'Checked'; ?> type="radio">Tin tuc
+                    </label>
+                    <label class="radio-inline">
+                        <input name="rdoTintuc" value="0" <?php if($data['is_tintuc'] == 0) echo 'Checked'; ?> type="radio">Phong thuy
+                    </label>
                 </div>
                 <div class="form-group">
                     <label>Nổi bật: </label>

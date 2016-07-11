@@ -35,6 +35,15 @@
                     <textarea name="txtDetail" class="form-control" rows="15"></textarea>
                 </div>
                 <div class="form-group">
+                    <label>Thể loại: </label>
+                    <label class="radio-inline">
+                        <input name="rdoTintuc" value="1" checked="" type="radio">Tin tức
+                    </label>
+                    <label class="radio-inline">
+                        <input name="rdoTintuc" value="0" type="radio">Phong thủy
+                    </label>
+                </div>
+                <div class="form-group">
                     <label>Nổi bật: </label>
                     <label class="radio-inline">
                         <input name="rdoFeatured" value="1" checked="" type="radio">Có

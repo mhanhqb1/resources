@@ -10,13 +10,13 @@ body {
     font-family: Montserrat, sans-serif;
 }
 .bg-grey{
-	background-color: #f6f6f6; 
+    background-color: #f6f6f6; 
 }
 .bg-xanh-nhat{
-	background-color: rgba(106, 234, 132, 0.2);
+    background-color: rgba(106, 234, 132, 0.2);
 }
 .full-width{
-	width: 100%;
+    width: 100%;
 }
 h2 {
     font-size: 35px;
@@ -24,7 +24,7 @@ h2 {
     color: #f4511e;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
-    text-shadow: 2px 2px 5px grey;
+    text-shadow: 2px 2px 5px black;
     margin-bottom: 40px;
 }
 
@@ -72,13 +72,34 @@ h4 {
 * AnhMH 2016/06/24
 * Header style
 */
-.jumbotron{
-	background: url('../images/bg_jumbotron.jpg');
-	background-size: 100% 100%;
-	padding: 150px 25px;
+/*.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
 }
-.jumbotron p{
-    font-style: italic;
+
+.navbar li a, .navbar .navbar-brand {
+    color: #f4511e !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}*/
+.jumbotron{
+    background: url('../images/bg_jumbotron.jpg');
+    background-size: 100% 100%;
+    padding: 150px 25px;
 }
 .jumbotron::after {
     content: '';
@@ -96,7 +117,7 @@ h4 {
 * Main content style
 */
 .container-fluid{
-	padding: 20px 40px;
+    padding: 20px 40px;
 }
 .logo {
     font-size: 200px;
@@ -118,17 +139,14 @@ h4 {
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-.thumbnail > p {
-    height: 40px;
-}
 .thumb-img {
-	position: relative;
-	background-color: #00b0ff;
-	width: 100%;
-	margin-bottom: 10px;
+    position: relative;
+    background-color: #00b0ff;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .thumbnail:hover {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .thumbnail img {
     width: 100%;
@@ -140,8 +158,8 @@ h4 {
     transition: all 0.5s ease;
 }
 .description {
-	position: absolute;
-    top: 15%;
+    position: absolute;
+    top: 25%;
     z-index: 99;
     left: 20%;
     color: #fff;
@@ -153,23 +171,22 @@ h4 {
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.description > a.btn {
-	border: 2px solid #fff;
-	border-radius: 5px;
-	font-style: 15px;
-	font-weight: bold;
-        color: #fff;
+.description > span {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-style: 15px;
+    font-weight: bold;
 }
 .description > span:hover {
-	background-color: #fff;
-	color: #333;
-	font-weight: normal;
+    background-color: #fff;
+    color: #333;
+    font-weight: normal;
 }
 .thumb-img:hover img {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 .thumb-img:hover .description{
-	opacity: 1;
-	transform: translate3d(-40px,0,0);
+    opacity: 1;
+    transform: translate3d(-40px,0,0);
 }
 /* Main content style end */

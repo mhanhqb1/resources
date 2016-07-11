@@ -18,12 +18,14 @@ $ngoaithanh = $duan->getDuanNgoaiThanh(9);
       <div class="col-sm-6 col-lg-4 slideanim <?php if ($i <= 3) echo 'slide'; ?>">
         <div class="thumbnail">
           <div class="thumb-img">
-            <a href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html">
+            <a href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html" target="_blank">
               <img src="media/images/duan/<?php echo $v['image']; ?>" alt="$v['image']">
             </a>
             <div class="description">
               <p><?php echo $v['description'];?></p>
-              <span class="btn">Xem chi tiet</span>
+              <a class="btn" href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html" target="_blank">
+                  Xem chi tiet
+              </a>
             </div>
           </div>        
         <p><strong><a href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html"><?php echo $v['title'];?></a></strong></p>
@@ -47,12 +49,14 @@ $ngoaithanh = $duan->getDuanNgoaiThanh(9);
       <div class="col-sm-6 col-lg-4 slideanim">
         <div class="thumbnail">
           <div class="thumb-img">
-            <a href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html">
+            <a href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html" target="_blank">
               <img src="media/images/duan/<?php echo $v['image']; ?>" alt="$v['image']">
             </a>
             <div class="description">
               <p><?php echo $v['description'];?></p>
-              <span class="btn">Xem chi tiet</span>
+              <a class="btn" href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html" target="_blank">
+                  Xem chi tiet
+              </a>
             </div>
           </div>        
         <p><strong><a href="duan-<?php echo $text.'-'.$v['duan_id'];?>.html"><?php echo $v['title'];?></a></strong></p>
@@ -62,3 +66,4 @@ $ngoaithanh = $duan->getDuanNgoaiThanh(9);
   </div>
 </div>
 
+	

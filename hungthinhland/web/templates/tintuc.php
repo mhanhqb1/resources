@@ -1,5 +1,8 @@
 <?php
 $id = '';
+$action = isset($_GET['action']) ? $_GET['action'] : 0;
+$modelName = !empty($action) ? 'tintuc' : 'phongthuy';
+$subModelName = !empty($action) ? 'tin-tuc-trang' : 'phong-thuy-trang';
 $news = new NEWS;
 ?>
 <?php if (isset($_GET['id'])): ?>
@@ -13,7 +16,7 @@ $news = new NEWS;
 
 <?php else:?>
 	<?php 
-		$data = $news->listAll();
+		$data = $news->listAll($action);
 		// Pagination
 		$totalData = count($data);
 		$limit = PAGE_LIMIT;
@@ -38,10 +41,10 @@ $news = new NEWS;
 			          	$text = convertURL($text);
 			        ?>
 	            	<li>
-	            		<a href="tintuc-<?php echo $text.'-'.$v['news_id'];?>.html">
+	            		<a href="<?php echo $modelName;?>-<?php echo $text.'-'.$v['news_id'];?>.html">
 	            			<img src="media/images/news/<?php echo $v['image'];?>" width="149" height="98">
 	            		</a>
-	            		<a href="tintuc-<?php echo $text.'-'.$v['news_id'];?>.html"><?php echo $v['title'];?></a>
+	            		<a href="<?php echo $modelName;?>-<?php echo $text.'-'.$v['news_id'];?>.html"><?php echo $v['title'];?></a>
 	            		<h3>Ngày đăng: <?php echo date('d-m-Y', strtotime($v['post_time']));?></h3>
 	            		<?php echo $v['description'];?>
 	            	</li>
@@ -54,7 +57,7 @@ $news = new NEWS;
     			<li style="line-height: 26px; font-weight: bold;">Trang: </li>
     			<?php for ($i=1;$i<=$totalPage;$i++): ?>
 	                <li>
-	                	<a <?php if(isset($_GET['page']) && $_GET['page'] == $i) echo 'class="page_cur"';?> href="tin-tuc-trang-<?php echo $i;?>.html"><?php echo $i?></a>
+	                	<a <?php if(isset($_GET['page']) && $_GET['page'] == $i) echo 'class="page_cur"';?> href="<?php echo $subModelName;?>-<?php echo $i;?>.html"><?php echo $i?></a>
 	                </li>
 	            <?php endfor; ?>
     		</ul>

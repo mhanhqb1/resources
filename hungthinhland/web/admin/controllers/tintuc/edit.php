@@ -29,11 +29,13 @@ if(isset($_POST['submit'])){
 		$err[] = 'Vui lòng chọn vị trí!';
 	}
 	$featured = $_POST['rdoFeatured'];
+	$istintuc = $_POST['rdoTintuc'];
 	if($check && $description && $detail && $title){
 		$new->setTitle($title);
 		$new->setDetail($detail);
 		$new->setDescription($description);
 		$new->setIsFeatured($featured);
+		$new->setIsTintuc($istintuc);
 		if($image){
 			$new->setImage($image);
 			if($new->checkImageExist()){

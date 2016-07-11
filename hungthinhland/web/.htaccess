@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteBase /
+#RewriteBase /
 
 ErrorDocument 404 /error.html
 ErrorDocument 401 /error.html
@@ -13,8 +13,10 @@ RewriteRule ^du-an-trang-([0-9]+)\.html$ index.php?controller=1&page=$1 [L]
 
 RewriteRule ^lien-he.html$ index.php?controller=lienhe [L]
 
-RewriteRule ^tin-tuc.html$ index.php?controller=tintuc [L]
-RewriteRule ^tin-tuc-trang-([0-9]+)\.html$ index.php?controller=tintuc&page=$1 [L]
+RewriteRule ^tin-tuc.html$ index.php?controller=tintuc&action=1 [L]
+RewriteRule ^phong-thuy.html$ index.php?controller=tintuc&action=0 [L]
+RewriteRule ^tin-tuc-trang-([0-9]+)\.html$ index.php?controller=tintuc&action=1&page=$1 [L]
+RewriteRule ^phong-thuy-trang-([0-9]+)\.html$ index.php?controller=tintuc&action=0&page=$1 [L]
 
 RewriteRule ^tuyen-dung.html$ index.php?controller=tuyendung [L]
 RewriteRule ^gioi-thieu.html$ index.php?controller=gioithieu [L]
@@ -34,5 +36,6 @@ RewriteRule ^du-an-tai-tp-hcm-trang-([0-9]+)\.html$ index.php?controller=duan&ty
 RewriteRule ^du-an-ngoai-tp-hcm.html$ index.php?controller=duan&type=ngoaithanh [L]
 RewriteRule ^du-an-ngoai-tp-hcm-trang-([0-9]+)\.html$ index.php?controller=duan&type=ngoaithanh&page=$1 [L]
 
-RewriteRule ^duan-([a-zA-Z0-9-]+)-([0-9]+)\.html$ index.php?controller=duan&id=$2 [L]
-RewriteRule ^tintuc-([a-zA-Z0-9-]+)-([0-9]+)\.html$ index.php?controller=tintuc&id=$2 [L]
+RewriteRule ^duan-([a-zA-Z0-9-]+)-([0-9]+)\.html$ duan.php?id=$2 [L]
+RewriteRule ^tintuc-([a-zA-Z0-9-]+)-([0-9]+)\.html$ index.php?controller=tintuc&action=1&id=$2 [L]
+RewriteRule ^phongthuy-([a-zA-Z0-9-]+)-([0-9]+)\.html$ index.php?controller=tintuc&action=0&id=$2 [L]

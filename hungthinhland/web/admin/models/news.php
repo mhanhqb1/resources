@@ -5,6 +5,7 @@
 		protected $_detail;
 		protected $_image;
 		protected $_isFeatured;
+		protected $_isTintuc;
 		
 		public function __construct(){
 			$this->connect();	
@@ -44,6 +45,13 @@
 		public function getIsFeatured(){
 			return $this->_isFeatured;
 		}
+
+		public function setIsTintuc($s){
+			$this->_isTintuc = $s;
+		}
+		public function getIsTintuc(){
+			return $this->_isTintuc;
+		}
 		/*--------------------------FUNCITONS--------------------------*/
 
 		public function listOne($id){
@@ -79,15 +87,15 @@
 		}
 
 		public function insert(){
-			$sql = "INSERT INTO news(title, image, description, detail, is_featured) values('".$this->getTitle()."', '".$this->getImage()."', '".$this->getDescription()."','".$this->getDetail()."', '".$this->getIsFeatured()."')";
+			$sql = "INSERT INTO news(title, image, description, detail, is_featured, is_tintuc) values('".$this->getTitle()."', '".$this->getImage()."', '".$this->getDescription()."','".$this->getDetail()."', '".$this->getIsFeatured()."', '".$this->getIsTintuc()."')";
 			$this->query($sql);
 		}
 
 		public function update($id, $image=''){
 			if($image != ''){
-				$sql = "UPDATE news SET image='".$this->getImage()."', description='".$this->getDescription()."', is_featured='".$this->getIsFeatured()."', title='".$this->getTitle()."', detail='".$this->getDetail()."' WHERE news_id='".$id."'";
+				$sql = "UPDATE news SET image='".$this->getImage()."', description='".$this->getDescription()."', is_featured='".$this->getIsFeatured()."', is_tintuc='".$this->getIsTintuc()."', title='".$this->getTitle()."', detail='".$this->getDetail()."' WHERE news_id='".$id."'";
 			}else{
-				$sql = "UPDATE news SET description='".$this->getDescription()."', is_featured='".$this->getIsFeatured()."', title='".$this->getTitle()."', detail='".$this->getDetail()."' WHERE news_id='".$id."'";
+				$sql = "UPDATE news SET description='".$this->getDescription()."', is_featured='".$this->getIsFeatured()."', is_tintuc='".$this->getIsTintuc()."', title='".$this->getTitle()."', detail='".$this->getDetail()."' WHERE news_id='".$id."'";
 			}
 			$this->query($sql);
 		}
