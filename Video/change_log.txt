@@ -1,0 +1,143 @@
+Templatic theme - Video
+==================================================================================================================================================================================================================
+17th June 2013 (V:1.0.7)
+--------------------------------
+FIX : twitter widget design issue.
+--------------------------------
+style.css
+skins/1-default.css
+
+-------------------------------------------------------------------------------
+FIX : Added code for twitter version 1.1 changes in "T>latest twitter feed" widget.
+-------------------------------------------------------------------------------
+Modified file :
+library/functions/widgets_functions.php
+
+New added files :
+library/functions/Oauth
+library/functions/Oauth/LICENSE
+library/functions/Oauth/OAuth.php
+library/functions/Oauth/twitteroauth.php
+
+----------------------------------------------------------------------
+FIX :
+Double delete button issue, also added theme and forum guide links.
+Added warning before anyone accidently deletes the sample data.
+----------------------------------------------------------------------
+functions.php
+
+----------------------------------
+FIX : Removed Most wanted plugin.
+----------------------------------
+functions/custom_functions.php
+
+-------------------------------------
+FIX : Sidebar issue on blog detail page.
+-------------------------------------
+single_blog.php
+
+-------------------------------------------------
+FIX : Unnecessary folders creates at root directory.
+-------------------------------------------------
+auto_install.php
+
+----------------------------------------------------------------
+FIX : Issue with images in some widgets and related post function.
+----------------------------------------------------------------
+library/functions/custom_functions.php
+library/functions/widgets_functions.php
+
+-----------------------------------------------
+FIX : Updated time and date functions for footer.
+-----------------------------------------------
+footer.php
+
+
+
+16th January 2012 ( v:1.0.6)
+----------------------------------------------
+removed deprecated functions and check using theme checker
+-----------------------------------------------------------------
+comments-old.php
+comments.php
+footer.php
+functions.php
+header.php
+library/functions/admin_functions.php
+library/functions/admin_options.php
+library/functions/admin_settings.php
+library/functions/comments_functions.php
+library/functions/custom_functions.php
+library/functions/custom_post_type.php
+library/functions/most-popular.php
+library/functions/widgets_functions.php
+library/functions/yoast-breadcrumbs.php
+library/functions/yst_plugin_tools.php
+page-archives.php
+page-sitemap.php
+page.php
+search.php
+searchform.php
+single-videos.php
+single_blog.php
+taxonomy-videoscategory.php
+--------------------------------------------------
+10th December 2012 (v:1.0.5)
+-------------------------------------------------------------------------------------
+twitter widget not working solved with time pof post posted and link to that post 
+-------------------------------------------------------------------------------------
+library/functions/widget_functions.php
+
+
+2 jan 2012
+
+---------------------------------------------------
+Breadcrumb fatal error in WP 3.3
+Added yoast-breadcrumbs.php and yst_plugin_tools.php
+
+
+31 May 2011
+---------------------------------------------------
+Videos archive page pagination issue - solved
+taxonomy-videoscategory.php
+
+
+ 
+
+29 March 2011
+---------------------------------------------------
+slider auto draft problem - solved
+---------------------------------------------------
+library/functions/widgets_funcions.php
+
+
+29 March 2011
+---------------------------------------------------
+Widgets List of Categories first video in particular category - Category Link prob solved
+---------------------------------------------------
+library/functions/widgets_funcions.php
+
+
+23rd feb 2011
+---------------------------------------------------
+Featured Video - shows "auto draft" posts - solved
+---------------------------------------------------
+library/functions/widgets_funcions.php
+
+
+
+10th feb 2011
+---------------------------------------------------
+Video category breadcrum problem  - solved
+---------------------------------------------------
+functions.php
+admin_options.php
+
+
+
+4th Feb 2011 (v: 1.0.2)
+--------------------------------------------------
+RSS Feed custom taxonomy issue - solved
+--------------------------------------------------
+library/function/custom_post_type.php
+
