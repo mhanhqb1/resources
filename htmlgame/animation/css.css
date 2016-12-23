@@ -1,0 +1,180 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { 	margin: 0; 	padding: 0; 	border: 0; 	outline: 0; 	font-style: inherit; 	font-family: inherit; 	font-size: 1em; } /* remember to define focus styles! */ :focus { 	outline: 0; } img { border: none;} ol, ul { list-style: none; } table { border-collapse: collapse; 	border-spacing: 0; } caption, th, td { 	text-align: left; 	font-weight: normal; } blockquote:before, blockquote:after, q:before, q:after { 	content: ""; } blockquote, q { 	quotes: "" ""; } article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section { 	display:block; }
+html { 
+  background: #fff;
+}
+
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',"メイリオ", meiryo, Arial, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif !important;
+  font-size: 12px;
+}
+
+* { word-wrap: break-word; }
+img { display: block; }
+
+/* !clearfix */
+.cfix { /zoom : 1; }
+.cfix:after { content : ''; display : block; clear : both; }
+
+/* !Links */
+a:link { color: #000; text-decoration:underline; }
+a:visited { color: #000; text-decoration:underline; }
+a:hover  { color: #000; text-decoration:none; }
+a:active { color: #000; text-decoration:none; }
+
+#snsBtn { position: absolute; top: 15px; right: 15px; display: table; }
+#snsBtn li { display: table-cell; padding: 0 0 0 10px; vertical-align: top; }
+#snsBtn .mixiBtn { width: 70px!important; overflow: hidden; }
+#snsBtn .fbBtn { padding: 0 0 0 8px; }
+#snsBtn li .fb-like { width: 72px!important; overflow: hidden!important; }
+#snsBtn li.addThis { padding-top: 1px }
+#snsBtnBtm { position: fixed; bottom: 150px; left: 50%; z-index: 1; display: table; margin: 0 0 0 170px; display: none; }
+#snsBtnBtm li { display: table-cell; padding: 0 0 0 10px; vertical-align: top; }
+#snsBtnBtm li.addThis { padding-top: 2px }
+#snsBtnBtm li .fb-like { width: 72px!important; overflow: hidden!important; }
+
+#container { border: 10px solid #000; background: #fff3d9; min-width: 980px; height: 100%; min-height: 780px; position: relative; overflow: hidden; }
+#container.bgContents { background: #fff3d9 url(../images/bg.png) center top repeat-y ; }
+#dammyPhoto { position: absolute; top: 0; left: 50%; margin: 0 0 0 -600px; }
+
+#wrapper { position: relative; width: 100%; min-width: 980px; height: 100%; }
+
+header { z-index: 1000; position: absolute; left: 0; top: 0; min-width: 980px; width: 100%; top: -115px; }
+header #siteLogo { position: absolute; left: 0; top: 0px; }
+header #smallLogo { position: absolute; left: 99px; top: -100px; }
+header p { position: absolute; right: 14px; top: 45px; width: 18px; height: 13px; overflow: hidden; }
+header p #soundBtn { position: absolute; left: -32px; top:0; /* display: none; */ }
+header p #soundBtn.mute { left: 0; }
+
+footer #bottle { position: absolute; left: 15px; bottom: -200px;  }
+footer #footerLink { position: absolute; left: 71px; bottom: -200px;  }
+footer small { position: absolute; right: 25px; bottom: 10px; font-size: 10px; }
+
+.scene { width: 980px; position: absolute; left: 50%; top: 0; margin: 0 0 0 -490px; }
+
+#scene01 { height: 100%; min-height: 650px; }
+#scene01 .sceneInner { position: absolute; left: 0; top: 50%; right: 0; height: 800px; margin: -400px 0 0; }
+#scene01 #loadingText  { position: absolute; left: 476px; top: 124px;  }
+#scene01 #lead { position: absolute; left:356px; top: 124px; width: 265px; height: 270px; overflow: hidden;  }
+#scene01 #lead span { position: absolute; top:0; display: block; overflow: hidden; height: 0; }
+#scene01 #lead span:nth-child(1) { left: 248px; }
+#scene01 #lead span:nth-child(2) { left: 204px; }
+#scene01 #lead span:nth-child(3) { left: 157px; }
+#scene01 #lead span:nth-child(4) { left: 111px; }
+#scene01 #lead span:nth-child(5) { left: 46px; }
+#scene01 #lead span:nth-child(6) { left: 0px; }
+
+#scene01 #road { position: absolute; left: 212px; top: 428px; }
+
+
+
+#scene01 #btnSkip { position: absolute; left: 318px; top: 344px; display: none; }
+#scene01 #miko { position: absolute; left: 621px; top: 476px; width: 125px; height: 190px; overflow: hidden; z-index: 2; }
+#scene01 #miko img { position: absolute; left: 0; top: 0; }
+#scene01 #torii { position: absolute; left: 249px; top: 81px; width: 480px; height: 460px; overflow: hidden; margin: -100% 0 0;}
+#scene01 #torii { -webkit-transform-origin: 50% 290px; }
+#scene01 #torii img { position: absolute; left: 0; top: 0;  }
+#scene01 #toriiFixSet { display: none; }
+#scene01 #toriiFix { position: absolute; left: 249px; top: 81px; width: 480px; height: 422px; overflow: hidden; margin: 0;}
+#scene01 #toriiFix img { position: absolute; left: 0; bottom: 0; }
+#scene01 #toriiShadow { position: absolute; left: 249px; top: 451px; width: 480px; height: 90px; overflow: hidden; margin: 0;} 
+
+#scene01 #senryuRight { position: absolute; left: 734px; top: 495px; overflow: hidden; width: 0; }
+#scene01 #senryuLeft { position: absolute; right: 734px; top: 495px; overflow: hidden; width: 0; }
+
+
+#scene01 #mainTitle { }
+#scene01 #mainTitle #title { position: absolute; left: 210px; top: 268px; margin: -100% 0 0; }
+#scene01 #mainTitle #omikuji { position: absolute; left: 442px; top: 340px; margin: -100% 0 0; }
+#scene01 #mainTitle #omikuji_shadow { position: absolute; left: 431px; top: 553px; display: none; }
+#scene01 #balloonMan { position: absolute; left: -35px; top: 94px; width: 341px; height: 267px; display: none; }
+#scene01 #balloonMan #charaMan { position: absolute; left: 60px; top: 90px; display: none; }
+/* #scene01 #balloonMan .spray { position: absolute; left: 0px; top: 115px; display: none; } */
+#scene01 #balloonMan a { display: block; width: 240px; height: 192px;position: absolute; bottom: 0; right: 0; }
+#scene01 #balloonMan .balloon {  }
+#scene01 #balloonWoman { position: absolute; right: 19px; top: 95px; width: 295px; height: 256px; display: none; }
+#scene01 #balloonWoman #charaWoman { position: absolute; right: 40px; top: 70px; display: none; }
+#scene01 #balloonWoman .spray { position: absolute; left: 0px; top: 115px; display: none; }
+#scene01 #balloonWoman a { display: block; width: 240px; height: 192px; position: absolute; bottom: 0; left: 0; }
+#scene01 #balloonWoman .balloon {  }
+
+#scene02 { height: 3980px; }
+#scene02 img { display: block; }
+#scene02 #omikujiFixed { position: fixed; left: 50%; top: -50%; width: 1000px; height: 460px; margin: -260px 0 0 -500px; }
+#scene02 #omikujiFixed .box { position: absolute; left: 360px; top: 0; width: 277px; height: 461px; }
+#scene02 #omikujiFixed .boxInner { position: absolute; left: 0; top: 0; width: 277px; height: 461px; 
+/*
+  -webkit-transform-origin: 138px 230px;
+  -moz-transform-origin: 138px 230px;
+  -ms-transform-origin: 138px 230px;
+*/
+
+}
+#scene02 #omikujiFixed .bar { position: absolute; left: 187px; bottom: 400px; overflow: hidden; width: 13px; height: 0px; }
+#scene02 #omikujiFixed .box img { position: absolute; left: 0; top: 0; }
+#scene02 #omikujiFixed .text { position: absolute; left: 318px; top: 450px; }
+
+#scene03 { height: 2280px; }
+
+#result { position: relative; width: 980px; margin: 0 auto; z-index: 3; }
+#resultWrapper { position: absolute; left: 268px; top: 32px; width: 462px; height: 1798px; overflow: hidden; }
+#scene03 #resultWrapper { height: 0; }
+#paper { border: 10px solid #000; padding: 10px; background:url(../images/result_bg.png) ; }
+#paper .inner { border: 5px solid #000; font-size: 1px; line-height: 1; zoom: 1; height: 1748px; }
+#paper #shareBtn { height: 136px; }
+#paper #shareBtn a { width: 203px; height: 136px; }
+#paper #shareBtn li { float: left; width: 203px; }
+#paper #shareBtn .listBorder { border-right: 5px solid #000; width: 204px; float: left;}
+/* #paper #shareBtn li:first-child { border-right: 5px solid #000 ; width: 204px; float: left; } */
+#resultRoll { position: absolute; left: 266px; top: 20px; z-index: 3; }
+#resultBack { position: absolute; left: 267px; top: 1849px; }
+#resultBack a { display: block; width: 476px; height: 39px; position: absolute; left: 113px; top: 0; }
+#resMiko { position: absolute; left: 47px; top: 130px; width: 125px; height: 190px; overflow: hidden; z-index: 2; }
+#resMiko img { position: absolute; left: 0; top: 0; }
+
+
+#contentsBg { width: 980px; margin: 0 auto; display: none; }
+#contentsBg .spray { position: absolute; left: 50%; }
+#contentsBg .spray img { margin: 1500px 0 0 0; }
+#contentsBg #spray01 { top: 194px; margin: 0 0 0 -450px; }
+#contentsBg #spray02 { top: 245px; margin: 0px 0px 0px 333px; }
+#contentsBg #spray02 .balloon { position: absolute; left: 38px; top: -133px; }
+#contentsBg #spray02 .bottle  { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray03 { top: 722px; margin: 0px 0px 0px -395px; }
+#contentsBg #spray03 .balloon { position: absolute; left: -122px; top: -123px; }
+#contentsBg #spray03 .bottle { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray04 { top: 622px; margin: 0px 0px 0px 184px; }
+#contentsBg #spray05 { top: 1072px; margin: 0px 0px 0px -264px; }
+#contentsBg #spray06 { top: 1174px; margin: 0px 0px 0px 316px; }
+#contentsBg #spray06 .balloon { position: absolute; left: 10px; top: -121px; }
+#contentsBg #spray06 .bottle { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray07 { top: 1658px; margin: 0px 0px 0px -487px;}
+#contentsBg #spray07 .balloon { position: absolute; left: -58px; top: -149px;}
+#contentsBg #spray07 .bottle { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray08 { top: 1739px; margin: 0px 0px 0px 197px; }
+#contentsBg #spray09 { top: 2093px; margin: 0 0 0 -450px; }
+#contentsBg #spray10 { top: 2144px; margin: 0px 0px 0px 333px; }
+#contentsBg #spray10 .balloon { position: absolute; left: 38px; top: -133px; }
+#contentsBg #spray10 .bottle  { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray11 { top: 2621px; margin: 0px 0px 0px -395px; }
+#contentsBg #spray11 .balloon { position: absolute; left: -122px; top: -123px; }
+#contentsBg #spray11 .bottle { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray12 { top: 2521px; margin: 0px 0px 0px 184px; }
+#contentsBg #spray13 { top: 2971px; margin: 0px 0px 0px -264px; }
+#contentsBg #spray14 { top: 3071px; margin: 0px 0px 0px 316px; }
+#contentsBg #spray14 .balloon { position: absolute; left: 10px; top: -121px; }
+#contentsBg #spray14 .bottle { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray15 { top: 3557px; margin: 0px 0px 0px -487px;}
+#contentsBg #spray15 .balloon { position: absolute; left: -58px; top: -149px;}
+#contentsBg #spray15 .bottle { position: absolute; left: 0px; top: 0px; }
+#contentsBg #spray16 { top: 3638px; margin: 0px 0px 0px 197px; }
+
+
+#bottomIllust { width: 100%; height: 100px; margin: 0 auto; position: fixed; left: 0; bottom: 0; z-index: 1; display: none; }
+#bottomIllust .inner { position: absolute; left: 50%; top:0; margin:0 0 0 -138px; }
+#bottomIllust #foot { position: absolute; left: 0; top: 0; }
+#bottomIllust #footSpray { position: absolute; left: 170px; top: 37px; cursor: pointer; }
+#bottomIllust #footKira { position: absolute; left: 170px; top: 37px; display: none; }
+
+
+#sm2-container { bottom: auto !important; top: 0 !important;}
