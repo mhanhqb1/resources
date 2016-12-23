@@ -652,7 +652,7 @@ class latestvideos extends WP_Widget {
 		// if ( !empty( $title ) ) { echo $before_title . $title . $after_title; };
 		echo ''; ?>
         <h3> <?php echo $title; ?> </h3>
-        <ul class="categories_list">
+        <ul class="categories_list row">
         <?php 
 			global $post,$wpdb;
 			if($category){
@@ -663,7 +663,7 @@ class latestvideos extends WP_Widget {
 			foreach($latest_menus as $post) :
             setup_postdata($post);
 			$post_images = bdw_get_images($post->ID,'large');?>
-			<li class="clearfix"> 
+			<li class="col-md-4 col-sm-6 col-xs-6"> 
             <?php 
             if(get_the_post_thumbnail( $post->ID, array())){?>
              <a class="video_thumb" href="<?php echo get_permalink($post->ID) ?>" rel="bookmark" title="<?php the_title(); ?>">
@@ -698,8 +698,8 @@ class latestvideos extends WP_Widget {
                 
                  <p class="title"><a href="<?php echo get_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php echo get_the_title();  ?></a></p>
  
-                 <p class="author">  by <?php the_author_posts_link(); ?></p>
-                 <p><?php echo excerpt(9); ?></p>
+                 <!--<p class="author">  by <?php the_author_posts_link(); ?></p>-->
+                 <!--<p><?php echo excerpt(9); ?></p>-->
             </li>
     
 <?php endforeach; 
@@ -1018,7 +1018,8 @@ class video_categories_post extends WP_Widget {
 
 		// if ( !empty( $title ) ) { echo $before_title . $title . $after_title; };
 		 ?>
-         <ul class="categories_list cat_main">
+        <h3 class="widget-title">Video Categories</h3>
+         <ul class="categories_list cat_main row">
          <?php 
 	    $sub_sql_cat='';
 		 if($category)
@@ -1044,7 +1045,7 @@ class video_categories_post extends WP_Widget {
 		 ?> 
         <?php $post_images = bdw_get_images($post[0]->ID,'large');	
 			  $pcount++; ?>
-         <li> 
+             <li class="col-md-4 col-sm-6 col-xs-6"> 
           <?php if(get_post_meta($post[0]->ID,'time',true)){?>
                   <span class="time"> <?php echo get_post_meta($post[0]->ID,'time',true);?> </span>
           <?php }?> 
@@ -1068,19 +1069,17 @@ class video_categories_post extends WP_Widget {
                <a  href="<?php echo get_permalink($post[0]->ID) ?>" class="img" > <span class="img_not_available"> <?php _e('Image Not Available ','templatic');?> </span> 
                 </a>
         <?php }?> 
-                           <p class="title"><a href="<?php echo get_permalink($post[0]->ID) ?>" rel="bookmark" title="<?php get_the_title($post[0]->ID); ?>"><?php echo get_the_title($post[0]->ID);  ?></a></p>
-                            <p class="author">  by <a href="<?php echo get_author_posts_url($post[0]->post_author); ?>"><?php echo $wpdb->get_var("select display_name from $wpdb->users where ID='".$post[0]->post_author."'");?></a></p>
-                             <p><?php 
+                           <!--<p class="title"><a href="<?php echo get_permalink($post[0]->ID) ?>" rel="bookmark" title="<?php get_the_title($post[0]->ID); ?>"><?php echo get_the_title($post[0]->ID);  ?></a></p>-->
+                            <!--<p class="author">  by <a href="<?php echo get_author_posts_url($post[0]->post_author); ?>"><?php echo $wpdb->get_var("select display_name from $wpdb->users where ID='".$post[0]->post_author."'");?></a></p>-->
+                             <!--<p><?php 
 							 $text = $post[0]->post_content;
 							$text = strip_tags($text);
 							$text = substr($text, 0, $desc_count);
 							$text = substr($text, 0, strrpos($text, " "));
 							echo $text;
-							 ?></p>
+							 ?></p>-->
                         </li>
-                        <?php if($pcount!=0 && ($pcount%4)==0){?>
-                             <li class="hr clearfix"></li>
-                             <?php }?>
+                        
 	<?php }	?>
     </ul>
  <?php
@@ -1161,7 +1160,7 @@ class categorylist extends WP_Widget {
 			    ?>
                  <?php $post_images = bdw_get_images($post->ID,'large');?>
            
-           		<li class="clearfix"> 
+           		<li class="col-md-3 col-sm-6 col-xs-6"> 
                 
                  <?php 
             if(get_the_post_thumbnail( $post->ID, array())){?>

@@ -140,7 +140,7 @@ else
       <?php $post_images = bdw_get_images($post->ID,'large');?>
        	
         
-        	<li class="clearfix"> 
+        	<li class="col-md-4 col-sm-6 col-xs-6"> 
                 
                 <?php 
             if(get_the_post_thumbnail( $post->ID, array())){?>

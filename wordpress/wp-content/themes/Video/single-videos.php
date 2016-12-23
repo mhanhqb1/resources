@@ -27,7 +27,7 @@ update_post_meta($post->ID, 'views_count', $views_count + 1);
 </div>
 
 
-<div id="content" class="clearfix" >
+<div id="content" class="col-sm-9 col-xs-12 clearfix" >
     <div class="single_post">
         <?php if (have_posts()) : ?>
             <?php $post_images = bdw_get_images($post->ID, 'large'); ?>
@@ -108,7 +108,7 @@ update_post_meta($post->ID, 'views_count', $views_count + 1);
 
 
 
-<div id="sidebar" class="sidebar_bnone">
+<div id="sidebar" class="sidebar_bnone col-sm-3 col-xs-12 ">
 
     <div class="single_sidebar">
 <?php dynamic_sidebar(8); ?>

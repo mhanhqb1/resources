@@ -1,5 +1,5 @@
 <?php get_header(); ?>
- <div id="content" class="clearfix">
+ <div id="content" class="container clearfix">
 
  <?php if ( get_option( 'ptthemes_breadcrumbs' )) { yoast_breadcrumb('<div class="breadcrumb">','</div>'); } ?>
     
@@ -26,14 +26,14 @@
 			<h1 class="cat_head" ><?php echo get_option('ptthemes_browsing_tag'); ?><?php echo single_tag_title('', true); ?> </h1>
  			<?php } ?>
 	
-	 <ul class="categories_list">
+	 <ul class="categories_list row">
                     	
      <?php if(have_posts()) : ?>
      <?php  $pcount=0; while (have_posts()) : the_post();  $pcount++; ?>
       <?php $post_images = bdw_get_images($post->ID,'large');?>
        	
         
-        	<li class="clearfix"> 
+        	<li class="col-md-4 col-sm-6 col-xs-6"> 
                 
                 <?php 
             if(get_the_post_thumbnail( $post->ID, array())){?>
@@ -75,9 +75,6 @@
                  <p><?php echo excerpt(9); ?></p>
                    
             	 </li>
-                 <?php if($pcount!=0 && ($pcount%(4))==0){?>
-                 <li class="hr clearfix"></li>
-                 <?php }?>
               <?php endwhile; ?>
                     	
                     </ul>
@@ -103,7 +100,7 @@
     
  		</div><!--/content -->
         
-         <div id="sidebar">
+<div id="sidebar">
 	<?php dynamic_sidebar(7);  ?>
 </div> <!-- sidebar right--> 
 <?php get_footer(); ?>

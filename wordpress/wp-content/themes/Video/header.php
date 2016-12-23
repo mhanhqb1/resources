@@ -36,6 +36,8 @@ if(is_category())
 <meta name="author" content="<?php echo stripslashes(get_option('ptthemes_meta_author')); ?>" />
 <?php } ?>
 <?php } ?>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/library/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/library/css/bootstrap-theme.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 <?php if ( get_option('ptthemes_favicon') <> "" ) { ?>
 <link rel="shortcut icon" type="image/png" href="<?php echo get_option('ptthemes_favicon'); ?>" />
@@ -55,10 +57,10 @@ if(is_category())
  <?php if ( get_option('ptthemes_customcss') ) { ?>
 <link href="<?php echo get_template_directory_uri(); ?>/custom.css" rel="stylesheet" type="text/css">
 <?php } ?>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.min.js"></script> 
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery-2.1.1.min.js"></script> 
 </head>
 <body <?php body_class(); ?>>
-<div class="outer">
+<div class="container outer">
  <div id="page_nav">
   <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Top Navigation') ){}else{  ?>
          <ul>    
